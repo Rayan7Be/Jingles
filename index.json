@@ -3701,6 +3701,11 @@
                     "regex":  "^colors$"
                 },
                 {
+                    "name":  "Dirge of Cerberus - Final Fantasy VII (USA)",
+                    "file":  "jingles/wii/Dirge of Cerberus - Final Fantasy VII (USA).mp3",
+                    "regex":  "^dirge[^a-z0-9]*of[^a-z0-9]*cerberus[^a-z0-9]*final[^a-z0-9]*fantasy[^a-z0-9]*(?:vii|7|seven)[^a-z0-9]*usa$|^dirge[^a-z0-9]*cerberus[^a-z0-9]*final[^a-z0-9]*fantasy[^a-z0-9]*(?:vii|7|seven)[^a-z0-9]*usa$|^dcvu$"
+                },
+                {
                     "name":  "Dragon Ball Revenge of King Piccolo",
                     "file":  "jingles/wii/dragon-ball-revenge-of-king-piccolo.wav",
                     "regex":  "^dragon[^a-z0-9]*ball[^a-z0-9]*revenge[^a-z0-9]*of[^a-z0-9]*king[^a-z0-9]*piccolo$|^dragon[^a-z0-9]*ball[^a-z0-9]*revenge[^a-z0-9]*king[^a-z0-9]*piccolo$|^brkp$"
