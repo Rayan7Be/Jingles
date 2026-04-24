@@ -94,7 +94,7 @@ function Get-DisplayName([string]$baseName) {
 
 function Get-Aliases([string]$normalizedName) {
   $aliases = @{
-    'tomodachi life' = @('^tomodachi[^a-z0-9]*life(?![^a-z0-9]*(?:living|livin|live))$')
+    'tomodachi life' = @('^tomodachi[^a-z0-9]*life(?![^a-z0-9]*(?:living|livin|live|dream))$')
     'tomodachi life living the dream' = @(
       '^tomodachi[^a-z0-9]*life[^a-z0-9]*(?:living|livin|live)[^a-z0-9]*(?:the[^a-z0-9]*)?dream$',
       '^tomodachilifelivingthedream$',
