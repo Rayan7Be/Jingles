@@ -4286,9 +4286,19 @@
                     "regex":  "^sonic[^a-z0-9]*colors[^a-z0-9]*ds$|^soniccolorsds$"
                 },
                 {
-                    "name":  "Sonic Rush Adventure",
+                    "name":  "Sonic Rush Adventure (Dreamcast misplaced copy)",
+                    "file":  "jingles/nds/Sonic Rush Adventure (Dreamcast misplaced copy).wav",
+                    "regex":  "^sonic[^a-z0-9]*rush[^a-z0-9]*adventure[^a-z0-9]*dreamcast[^a-z0-9]*misplaced[^a-z0-9]*copy$|^radmc$"
+                },
+                {
+                    "name":  "Sonic Rush Adventure (DS)",
+                    "file":  "jingles/nds/Sonic Rush Adventure.mp3",
+                    "regex":  "^sonic[^a-z0-9]*rush[^a-z0-9]*adventure(?![^a-z0-9]*(?:(?:dreamcast)))$|^sonicrushadventure$"
+                },
+                {
+                    "name":  "Sonic Rush Adventure (DS)",
                     "file":  "jingles/nds/Sonic Rush Adventure.wav",
-                    "regex":  "^sonic[^a-z0-9]*rush[^a-z0-9]*adventure$|^sonicrushadventure$"
+                    "regex":  "^sonic[^a-z0-9]*rush[^a-z0-9]*adventure(?![^a-z0-9]*(?:(?:dreamcast)))$|^sonicrushadventure$"
                 },
                 {
                     "name":  "Sonic Rush Trilogy",
@@ -7472,21 +7482,6 @@
                           "regex":  "^sonic[^a-z0-9]*adventure(?![^a-z0-9]*(?:(?:(?:2|ii))))$|^sonicadventure$"
                       },
                       {
-                          "name":  "Sonic Pocket Adventure",
-                          "file":  "jingles/dreamcast/Sonic Pocket Adventure.mp3",
-                          "regex":  "^sonic[^a-z0-9]*pocket[^a-z0-9]*adventure$|^sonicpocketadventure$"
-                      },
-                      {
-                          "name":  "Sonic Rush Adventure",
-                          "file":  "jingles/dreamcast/Sonic Rush Adventure.mp3",
-                          "regex":  "^sonic[^a-z0-9]*rush[^a-z0-9]*adventure$|^sonicrushadventure$"
-                      },
-                      {
-                          "name":  "Sonic Rush Adventure",
-                          "file":  "jingles/dreamcast/Sonic Rush Adventure.wav",
-                          "regex":  "^sonic[^a-z0-9]*rush[^a-z0-9]*adventure$|^sonicrushadventure$"
-                      },
-                      {
                           "name":  "Soulcalibur (Dreamcast)",
                           "file":  "jingles/dreamcast/Soulcalibur.wav",
                           "regex":  "^soulcalibur(?![^a-z0-9]*(?:(?:(?:2|ii)|(?:ii|2|two))))$|^soulcalibur$"
@@ -10091,6 +10086,11 @@
                      "name":  "MegaMan BattleNFighters (NGPC)",
                      "file":  "jingles/ngpc/MegaMan BattleNFighters.mp3",
                      "regex":  "^megaman[^a-z0-9]*battlenfighters(?![^a-z0-9]*(?:(?:alt)))$|^megamanbattlenfighters$"
+                 },
+                 {
+                     "name":  "Sonic Pocket Adventure",
+                     "file":  "jingles/ngpc/Sonic Pocket Adventure.mp3",
+                     "regex":  "^sonic[^a-z0-9]*pocket[^a-z0-9]*adventure$|^sonicpocketadventure$"
                  }
              ],
     "cdi":  [
