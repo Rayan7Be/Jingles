@@ -4503,6 +4503,11 @@
                     "regex":  "^metroid[^a-z0-9]*prime[^a-z0-9]*trilogy$|^metroidprimetrilogy$|^mpt$"
                 },
                 {
+                    "name":  "Monster Hunter 3 tri",
+                    "file":  "jingles/wii/Monster Hunter 3 tri.mp3",
+                    "regex":  "^monster[^a-z0-9]*hunter[^a-z0-9]*(?:3|iii)[^a-z0-9]*tri$|^monsterhunter3tri$|^mh3t$"
+                },
+                {
                     "name":  "Munchables the",
                     "file":  "jingles/wii/munchables-the.wav",
                     "regex":  "^munchables[^a-z0-9]*the$|^munchables$|^munchablesthe$"
@@ -5193,6 +5198,21 @@
                      "name":  "Minecraft New Nintendo 3DS Edition",
                      "file":  "jingles/n3ds/minecraft-new-nintendo-3ds-edition.wav",
                      "regex":  "^minecraft[^a-z0-9]*new[^a-z0-9]*nintendo[^a-z0-9]*3ds[^a-z0-9]*edition$|^minecraft[^a-z0-9]*new[^a-z0-9]*nintendo[^a-z0-9]*3ds$|^mn3$"
+                 },
+                 {
+                     "name":  "Monster Hunter 4 Ultimate",
+                     "file":  "jingles/n3ds/Monster Hunter 4 Ultimate.mp3",
+                     "regex":  "^monster[^a-z0-9]*hunter[^a-z0-9]*(?:4|iv)[^a-z0-9]*ultimate$|^monsterhunter4ultimate$|^mh4u$"
+                 },
+                 {
+                     "name":  "Monster Hunter 4 (3DS)",
+                     "file":  "jingles/n3ds/Monster Hunter 4.mp3",
+                     "regex":  "^monster[^a-z0-9]*hunter[^a-z0-9]*(?:4|iv)(?![^a-z0-9]*(?:(?:ultimate)))$|^monsterhunter4$|^mh4$"
+                 },
+                 {
+                     "name":  "Monster Hunter Generations (3DS)",
+                     "file":  "jingles/n3ds/Monster Hunter Generations.mp3",
+                     "regex":  "^monster[^a-z0-9]*hunter[^a-z0-9]*generations(?![^a-z0-9]*(?:(?:ultimate)))$|^monsterhuntergenerations$|^mhg$"
                  },
                  {
                      "name":  "Need for Speed the Run",
@@ -6072,6 +6092,21 @@
                        "name":  "Minecraft (Switch)",
                        "file":  "jingles/switch/Minecraft.mp3",
                        "regex":  "^minecraft(?![^a-z0-9]*(?:(?:new)))$|^minecraft$"
+                   },
+                   {
+                       "name":  "Monster Hunter Generations Ultimate",
+                       "file":  "jingles/switch/Monster Hunter Generations Ultimate.mp3",
+                       "regex":  "^monster[^a-z0-9]*hunter[^a-z0-9]*generations[^a-z0-9]*ultimate$|^mhgu$"
+                   },
+                   {
+                       "name":  "Monster Hunter Rise Sunbreak",
+                       "file":  "jingles/switch/Monster Hunter Rise Sunbreak.mp3",
+                       "regex":  "^monster[^a-z0-9]*hunter[^a-z0-9]*rise[^a-z0-9]*sunbreak$|^monsterhunterrisesunbreak$|^mhrs$"
+                   },
+                   {
+                       "name":  "Monster Hunter Rise (Switch)",
+                       "file":  "jingles/switch/Monster Hunter Rise.mp3",
+                       "regex":  "^monster[^a-z0-9]*hunter[^a-z0-9]*rise(?![^a-z0-9]*(?:(?:sunbreak)))$|^monsterhunterrise$|^mhr$"
                    },
                    {
                        "name":  "Muse Dash",
@@ -8241,6 +8276,21 @@
                     "regex":  "^metal[^a-z0-9]*gear[^a-z0-9]*solid[^a-z0-9]*(?:3|iii)[^a-z0-9]*snake[^a-z0-9]*eater$|^metalgearsolid3snakeeater$|^mgs3se$"
                 },
                 {
+                    "name":  "Monster Hunter 2 DOS",
+                    "file":  "jingles/ps2/Monster Hunter 2 DOS.mp3",
+                    "regex":  "^monster[^a-z0-9]*hunter[^a-z0-9]*(?:2|ii)[^a-z0-9]*dos$|^monsterhunter2dos$|^mh2d$"
+                },
+                {
+                    "name":  "Monster Hunter G",
+                    "file":  "jingles/ps2/Monster Hunter G.mp3",
+                    "regex":  "^monster[^a-z0-9]*hunter[^a-z0-9]*g$|^monsterhunterg$|^mhg$"
+                },
+                {
+                    "name":  "Monster Hunter (PS2)",
+                    "file":  "jingles/ps2/Monster Hunter.mp3",
+                    "regex":  "^monster[^a-z0-9]*hunter(?![^a-z0-9]*(?:(?:(?:2|ii)|(?:3|iii)|(?:4|iv)|freedom|g|generations|portable|rise|world)))$|^monsterhunter$"
+                },
+                {
                     "name":  "Musashi Samurai Legend",
                     "file":  "jingles/ps2/Musashi Samurai Legend.wav",
                     "regex":  "^musashi[^a-z0-9]*samurai[^a-z0-9]*legend$|^musashisamurailegend$"
@@ -8653,6 +8703,21 @@
                     "regex":  "^metal[^a-z0-9]*gear[^a-z0-9]*solid[^a-z0-9]*portable[^a-z0-9]*ops[^a-z0-9]*plus$|^mgspop$"
                 },
                 {
+                    "name":  "Monster Hunter Freedom 2",
+                    "file":  "jingles/psp/Monster Hunter Freedom 2.mp3",
+                    "regex":  "^monster[^a-z0-9]*hunter[^a-z0-9]*freedom[^a-z0-9]*(?:2|ii)$|^monsterhunterfreedom2$|^mhf2$"
+                },
+                {
+                    "name":  "Monster Hunter Freedom Unite",
+                    "file":  "jingles/psp/Monster Hunter Freedom Unite.mp3",
+                    "regex":  "^monster[^a-z0-9]*hunter[^a-z0-9]*freedom[^a-z0-9]*unite$|^monsterhunterfreedomunite$|^mhfu$"
+                },
+                {
+                    "name":  "Monster Hunter Freedom (PSP)",
+                    "file":  "jingles/psp/Monster Hunter Freedom.mp3",
+                    "regex":  "^monster[^a-z0-9]*hunter[^a-z0-9]*freedom(?![^a-z0-9]*(?:(?:(?:2|ii)|unite)))$|^monsterhunterfreedom$|^mhf$"
+                },
+                {
                     "name":  "Monster Hunter Portable (PSP)",
                     "file":  "jingles/psp/monster-hunter-portable.wav",
                     "regex":  "^monster[^a-z0-9]*hunter[^a-z0-9]*portable(?![^a-z0-9]*(?:(?:3rd)))$|^monsterhunterportable$|^mhp$"
@@ -8964,6 +9029,11 @@
                       "regex":  "^dragon[^a-z0-9]*age[^a-z0-9]*origins$|^dragonageorigins$"
                   },
                   {
+                      "name":  "Dredge",
+                      "file":  "jingles/steam/Dredge.mp3",
+                      "regex":  "^dredge$"
+                  },
+                  {
                       "name":  "Epic Battle Fantasy 5",
                       "file":  "jingles/steam/Epic Battle Fantasy 5.mp3",
                       "regex":  "^epic[^a-z0-9]*battle[^a-z0-9]*fantasy[^a-z0-9]*(?:5|v)$|^epicbattlefantasy5$|^eb5$"
@@ -9052,6 +9122,11 @@
                       "name":  "Guacamelee! Super Turbo Championship Edition",
                       "file":  "jingles/steam/Guacamelee! Super Turbo Championship Edition.mp3",
                       "regex":  "^guacamelee[^a-z0-9]*super[^a-z0-9]*turbo[^a-z0-9]*championship[^a-z0-9]*edition$|^guacamelee[^a-z0-9]*super[^a-z0-9]*turbo[^a-z0-9]*championship$|^gtc$"
+                  },
+                  {
+                      "name":  "Hades",
+                      "file":  "jingles/steam/Hades.mp3",
+                      "regex":  "^hades$"
                   },
                   {
                       "name":  "Hearthstone",
@@ -9184,6 +9259,26 @@
                       "regex":  "^momodora[^a-z0-9]*moonlit[^a-z0-9]*farewell$|^momodoramoonlitfarewell$|^mmf$"
                   },
                   {
+                      "name":  "Monster Hunter Rise Sunbreak",
+                      "file":  "jingles/steam/Monster Hunter Rise Sunbreak.mp3",
+                      "regex":  "^monster[^a-z0-9]*hunter[^a-z0-9]*rise[^a-z0-9]*sunbreak$|^monsterhunterrisesunbreak$|^mhrs$"
+                  },
+                  {
+                      "name":  "Monster Hunter Rise (Steam)",
+                      "file":  "jingles/steam/Monster Hunter Rise.mp3",
+                      "regex":  "^monster[^a-z0-9]*hunter[^a-z0-9]*rise(?![^a-z0-9]*(?:(?:sunbreak)))$|^monsterhunterrise$|^mhr$"
+                  },
+                  {
+                      "name":  "Monster Hunter World Iceborne",
+                      "file":  "jingles/steam/Monster Hunter World Iceborne.mp3",
+                      "regex":  "^monster[^a-z0-9]*hunter[^a-z0-9]*world[^a-z0-9]*iceborne$|^monsterhunterworldiceborne$|^mhwi$"
+                  },
+                  {
+                      "name":  "Monster Hunter World (Steam)",
+                      "file":  "jingles/steam/Monster Hunter World.mp3",
+                      "regex":  "^monster[^a-z0-9]*hunter[^a-z0-9]*world(?![^a-z0-9]*(?:(?:iceborne)))$|^monsterhunterworld$|^mhw$"
+                  },
+                  {
                       "name":  "Neir Automata",
                       "file":  "jingles/steam/Neir Automata.mp3",
                       "regex":  "^neir[^a-z0-9]*automata$|^neirautomata$"
@@ -9284,6 +9379,11 @@
                       "regex":  "^ship[^a-z0-9]*of[^a-z0-9]*harkanian$|^ship[^a-z0-9]*harkanian$|^shipofharkanian$"
                   },
                   {
+                      "name":  "Short Hike",
+                      "file":  "jingles/steam/Short Hike.mp3",
+                      "regex":  "^short[^a-z0-9]*hike$|^shorthike$"
+                  },
+                  {
                       "name":  "Sonic 3 AIR",
                       "file":  "jingles/steam/Sonic 3 AIR.mp3",
                       "regex":  "^sonic[^a-z0-9]*(?:3|iii)[^a-z0-9]*air$|^sonic3air$"
@@ -9332,6 +9432,11 @@
                       "name":  "Stardew Valley",
                       "file":  "jingles/steam/Stardew Valley.wav",
                       "regex":  "^stardew[^a-z0-9]*valley$|^stardewvalley$"
+                  },
+                  {
+                      "name":  "Steamworld dig 2",
+                      "file":  "jingles/steam/Steamworld dig 2.mp3",
+                      "regex":  "^steamworld[^a-z0-9]*dig[^a-z0-9]*(?:2|ii)$|^steamworlddig2$|^sd2$"
                   },
                   {
                       "name":  "Super Auto Pets",
