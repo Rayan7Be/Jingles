@@ -1,2 +1,2 @@
 # Jingles
-Tons of cocoon jingles
+The Ultimate Nintendo Jingle Repo
