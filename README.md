@@ -1,2 +1,2 @@
 # Jingles
-The Ultimate Nintendo Jingle Repo (over 1100 jingles!)
+The Ultimate Video Game Jingle Repo (1936 jingles!)

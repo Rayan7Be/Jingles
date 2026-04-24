@@ -84,7 +84,7 @@ function Get-DisplayName([string]$baseName) {
   $out = for ($i = 0; $i -lt $words.Count; $i++) {
     $w = $words[$i]
     if ($w -match '^[0-9]+([+][0-9]+)?(d)?$') { $w.ToUpperInvariant() }
-    elseif ($w.Length -le 4 -and $w -cmatch '^[a-z0-9]+$' -and $w -in @('gba','gbc','nds','3ds','wii','wiiu','hd','dx','usa','gc','nes','snes','n64')) { $w.ToUpperInvariant() }
+    elseif ($w.Length -le 4 -and $w -cmatch '^[a-z0-9]+$' -and $w -in @('gba','gbc','nds','3ds','wii','wiiu','hd','dx','usa','gc','nes','snes','n64','psx','ps1','ps2','psp','psv','pc98','cdi','msx')) { $w.ToUpperInvariant() }
     elseif ($i -gt 0 -and $w.ToLowerInvariant() -in $small) { $w.ToLowerInvariant() }
     elseif ($w -cmatch '^[a-z]+$') { (Get-Culture).TextInfo.ToTitleCase($w) }
     else { $w }
@@ -106,6 +106,20 @@ function Get-SystemLabel([string]$system) {
     'n3ds' = '3DS'
     'wiiu' = 'Wii U'
     'switch' = 'Switch'
+    'megadrive' = 'Mega Drive'
+    'segacd' = 'Sega CD'
+    'saturn' = 'Saturn'
+    'dreamcast' = 'Dreamcast'
+    'psx' = 'PS1'
+    'ps2' = 'PS2'
+    'psp' = 'PSP'
+    'psv' = 'PS Vita'
+    'xbox360' = 'Xbox 360'
+    'steam' = 'Steam'
+    'pc98' = 'PC-98'
+    'ngpc' = 'NGPC'
+    'cdi' = 'CD-i'
+    'msx' = 'MSX'
   }
   return $labels[$system]
 }
@@ -144,7 +158,7 @@ function Get-Aliases([string]$normalizedName) {
   return @()
 }
 
-$systems = @('gb','nes','snes','n64','gbc','gba','gc','nds','wii','n3ds','wiiu','switch')
+$systems = @('gb','nes','snes','n64','gbc','gba','gc','nds','wii','n3ds','wiiu','switch','megadrive','segacd','saturn','dreamcast','psx','ps2','psp','psv','xbox360','steam','pc98','ngpc','cdi','msx')
 $entries = New-Object System.Collections.Generic.List[object]
 
 foreach ($system in $systems) {
@@ -188,7 +202,7 @@ foreach ($entry in $entries) {
   }
 }
 
-$root = [ordered]@{ name = 'Ultimate Nintendo Jingles' }
+$root = [ordered]@{ name = 'Ultimate Video Game Jingles' }
 foreach ($system in $systems) {
   $root[$system] = New-Object System.Collections.Generic.List[object]
 }
