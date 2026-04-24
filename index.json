@@ -1858,6 +1858,11 @@
                     "regex":  "^paper[^a-z0-9]*mario(?![^a-z0-9]*(?:(?:color|origami|sticker|thousand)))$|^papermario$"
                 },
                 {
+                    "name":  "Ridge Racer 64",
+                    "file":  "jingles/n64/Ridge Racer 64.mp3",
+                    "regex":  "^ridge[^a-z0-9]*racer[^a-z0-9]*64$|^ridgeracer64$|^rr64$"
+                },
+                {
                     "name":  "Super Mario 64 - Beyond the Cursed Mirror",
                     "file":  "jingles/n64/Super Mario 64 - Beyond the Cursed Mirror.mp3",
                     "regex":  "^super[^a-z0-9]*mario[^a-z0-9]*64[^a-z0-9]*beyond[^a-z0-9]*the[^a-z0-9]*cursed[^a-z0-9]*mirror$|^super[^a-z0-9]*mario[^a-z0-9]*64[^a-z0-9]*beyond[^a-z0-9]*cursed[^a-z0-9]*mirror$|^64bcm$"
@@ -3444,6 +3449,16 @@
                    "regex":  "^pac[^a-z0-9]*man[^a-z0-9]*world[^a-z0-9]*(?:3|iii)$|^pacmanworld3$|^pw3$"
                },
                {
+                   "name":  "Pac-Man World 2",
+                   "file":  "jingles/gc/Pac-Man World 2.mp3",
+                   "regex":  "^pac[^a-z0-9]*man[^a-z0-9]*world[^a-z0-9]*(?:2|ii)$|^pacmanworld2$|^pw2$"
+               },
+               {
+                   "name":  "Pac-Man World 3",
+                   "file":  "jingles/gc/Pac-Man World 3.mp3",
+                   "regex":  "^pac[^a-z0-9]*man[^a-z0-9]*world[^a-z0-9]*(?:3|iii)$|^pacmanworld3$|^pw3$"
+               },
+               {
                    "name":  "Paper Mario The Thousand Year Door",
                    "file":  "jingles/gc/Paper Mario The Thousand Year Door.flac",
                    "regex":  "^paper[^a-z0-9]*mario[^a-z0-9]*the[^a-z0-9]*thousand[^a-z0-9]*year[^a-z0-9]*door$|^paper[^a-z0-9]*mario[^a-z0-9]*thousand[^a-z0-9]*year[^a-z0-9]*door$|^tyd$"
@@ -4229,6 +4244,16 @@
                     "name":  "Professor Layton and the Spectres Call",
                     "file":  "jingles/nds/Professor Layton and the Spectres Call.wav",
                     "regex":  "^professor[^a-z0-9]*layton[^a-z0-9]*(?:and|\u0026|n)[^a-z0-9]*the[^a-z0-9]*spectres[^a-z0-9]*call$|^professor[^a-z0-9]*layton[^a-z0-9]*(?:and|\u0026|n)[^a-z0-9]*spectres[^a-z0-9]*call$|^asc$"
+                },
+                {
+                    "name":  "Ridge Racer 64DS - Motion Blur Music Música",
+                    "file":  "jingles/nds/Ridge Racer 64DS - Motion Blur Music Música.mp3",
+                    "regex":  "^ridge[^a-z0-9]*racer[^a-z0-9]*64ds[^a-z0-9]*motion[^a-z0-9]*blur[^a-z0-9]*music[^a-z0-9]*m[^a-z0-9]*sica$"
+                },
+                {
+                    "name":  "Ridge Racer DS",
+                    "file":  "jingles/nds/Ridge Racer DS.mp3",
+                    "regex":  "^ridge[^a-z0-9]*racer[^a-z0-9]*ds$|^ridgeracerds$|^rrd$"
                 },
                 {
                     "name":  "Shin Megami Tensei - Strange Journey (DS)",
@@ -7864,6 +7889,11 @@
                     "regex":  "^power[^a-z0-9]*shovel$|^powershovel$"
                 },
                 {
+                    "name":  "R4 Ridge Racer Type 4",
+                    "file":  "jingles/psx/R4 Ridge Racer Type 4.mp3",
+                    "regex":  "^r4[^a-z0-9]*ridge[^a-z0-9]*racer[^a-z0-9]*type[^a-z0-9]*(?:4|iv)$|^r4ridgeracertype4$|^rrrt4$"
+                },
+                {
                     "name":  "Ray Crisis",
                     "file":  "jingles/psx/RayCrisis.wav",
                     "regex":  "^raycrisis$"
@@ -7902,6 +7932,11 @@
                     "name":  "Revelations - Persona",
                     "file":  "jingles/psx/Revelations - Persona.mp3",
                     "regex":  "^revelations[^a-z0-9]*persona$|^revelationspersona$"
+                },
+                {
+                    "name":  "Ridge Racer (PS1)",
+                    "file":  "jingles/psx/Ridge Racer.mp3",
+                    "regex":  "^ridge[^a-z0-9]*racer(?![^a-z0-9]*(?:(?:(?:2|ii)|64|64ds|ds|(?:v|5|five))))$|^ridgeracer$"
                 },
                 {
                     "name":  "Rival Schools",
@@ -7987,6 +8022,21 @@
                     "name":  "Tales of Destiny (PS1)",
                     "file":  "jingles/psx/Tales of Destiny.wav",
                     "regex":  "^tales[^a-z0-9]*of[^a-z0-9]*destiny(?![^a-z0-9]*(?:(?:(?:2|ii))))$|^tales[^a-z0-9]*destiny(?![^a-z0-9]*(?:(?:(?:2|ii))))$|^talesofdestiny$"
+                },
+                {
+                    "name":  "Tekken 2",
+                    "file":  "jingles/psx/Tekken 2.mp3",
+                    "regex":  "^tekken[^a-z0-9]*(?:2|ii)$|^tekken2$"
+                },
+                {
+                    "name":  "Tekken 3",
+                    "file":  "jingles/psx/Tekken 3.mp3",
+                    "regex":  "^tekken[^a-z0-9]*(?:3|iii)$|^tekken3$"
+                },
+                {
+                    "name":  "Tekken (PS1)",
+                    "file":  "jingles/psx/Tekken.mp3",
+                    "regex":  "^tekken(?![^a-z0-9]*(?:(?:(?:2|ii)|(?:3|iii)|(?:4|iv)|(?:5|v)|tag)))$|^tekken$"
                 },
                 {
                     "name":  "Tenchu II",
@@ -8206,6 +8256,11 @@
                     "regex":  "^haunting[^a-z0-9]*ground$|^hauntingground$"
                 },
                 {
+                    "name":  "Introduction - We Love Katamari OST",
+                    "file":  "jingles/ps2/Introduction - We Love Katamari OST.mp3",
+                    "regex":  "^introduction[^a-z0-9]*we[^a-z0-9]*love[^a-z0-9]*katamari[^a-z0-9]*ost$|^iwlko$"
+                },
+                {
                     "name":  "Jak II",
                     "file":  "jingles/ps2/Jak II.mp3",
                     "regex":  "^jak[^a-z0-9]*(?:ii|2|two)$|^jakii$"
@@ -8219,6 +8274,11 @@
                     "name":  "Jojo no Kimyou na Bouken - Ougon no Kaze",
                     "file":  "jingles/ps2/Jojo no Kimyou na Bouken - Ougon no Kaze.mp3",
                     "regex":  "^jojo[^a-z0-9]*no[^a-z0-9]*kimyou[^a-z0-9]*na[^a-z0-9]*bouken[^a-z0-9]*ougon[^a-z0-9]*no[^a-z0-9]*kaze$"
+                },
+                {
+                    "name":  "Katamari Damacy",
+                    "file":  "jingles/ps2/Katamari Damacy.mp3",
+                    "regex":  "^katamari[^a-z0-9]*damacy$|^katamaridamacy$"
                 },
                 {
                     "name":  "Kingdom Hearts (Dearly Beloved)",
@@ -8371,6 +8431,16 @@
                     "regex":  "^okami$"
                 },
                 {
+                    "name":  "Pac-Man World 2",
+                    "file":  "jingles/ps2/Pac-Man World 2.mp3",
+                    "regex":  "^pac[^a-z0-9]*man[^a-z0-9]*world[^a-z0-9]*(?:2|ii)$|^pacmanworld2$|^pw2$"
+                },
+                {
+                    "name":  "Pac-Man World 3",
+                    "file":  "jingles/ps2/Pac-Man World 3.mp3",
+                    "regex":  "^pac[^a-z0-9]*man[^a-z0-9]*world[^a-z0-9]*(?:3|iii)$|^pacmanworld3$|^pw3$"
+                },
+                {
                     "name":  "PaRappa the Rapper 2",
                     "file":  "jingles/ps2/parappa2.wav",
                     "regex":  "^parappa2$"
@@ -8429,6 +8499,16 @@
                     "name":  "Resident Evil CODE Veronica X",
                     "file":  "jingles/ps2/Resident Evil CODE Veronica X.wav",
                     "regex":  "^resident[^a-z0-9]*evil[^a-z0-9]*code[^a-z0-9]*veronica[^a-z0-9]*(?:x|10|ten)$|^residentevilcodeveronicax$|^recvx$"
+                },
+                {
+                    "name":  "RIDGE RACER V -- 19 -- MotorPac City",
+                    "file":  "jingles/ps2/RIDGE RACER V -- 19 -- MotorPac City.mp3",
+                    "regex":  "^ridge[^a-z0-9]*racer[^a-z0-9]*(?:v|5|five)[^a-z0-9]*19[^a-z0-9]*motorpac[^a-z0-9]*city$|^ridgeracerv19motorpaccity$|^rrv19mc$"
+                },
+                {
+                    "name":  "Ridge Racer V (PS2)",
+                    "file":  "jingles/ps2/Ridge Racer V.mp3",
+                    "regex":  "^ridge[^a-z0-9]*racer[^a-z0-9]*(?:v|5|five)(?![^a-z0-9]*(?:(?:19)))$|^ridgeracerv$|^rrv$"
                 },
                 {
                     "name":  "Shadow Hearts",
@@ -8511,6 +8591,21 @@
                     "regex":  "^teenage[^a-z0-9]*mutant[^a-z0-9]*ninja[^a-z0-9]*turtles(?![^a-z0-9]*(?:(?:(?:2|ii)|(?:3|iii))))$|^teenagemutantninjaturtles$|^tmnt$"
                 },
                 {
+                    "name":  "Tekken 4",
+                    "file":  "jingles/ps2/Tekken 4.mp3",
+                    "regex":  "^tekken[^a-z0-9]*(?:4|iv)$|^tekken4$"
+                },
+                {
+                    "name":  "Tekken 5",
+                    "file":  "jingles/ps2/Tekken 5.mp3",
+                    "regex":  "^tekken[^a-z0-9]*(?:5|v)$|^tekken5$"
+                },
+                {
+                    "name":  "Tekken Tag Tournament",
+                    "file":  "jingles/ps2/Tekken Tag Tournament.mp3",
+                    "regex":  "^tekken[^a-z0-9]*tag[^a-z0-9]*tournament$|^tekkentagtournament$|^ttt$"
+                },
+                {
                     "name":  "The Simpsons Game",
                     "file":  "jingles/ps2/The Simpsons Game.wav",
                     "regex":  "^the[^a-z0-9]*simpsons[^a-z0-9]*game$|^simpsons[^a-z0-9]*game$|^thesimpsonsgame$"
@@ -8529,6 +8624,11 @@
                     "name":  "Time Splitters (PS2)",
                     "file":  "jingles/ps2/TimeSplitters.mp3",
                     "regex":  "^timesplitters(?![^a-z0-9]*(?:(?:(?:2|ii)|future)))$|^timesplitters$"
+                },
+                {
+                    "name":  "We Love Katamari",
+                    "file":  "jingles/ps2/We Love Katamari.mp3",
+                    "regex":  "^we[^a-z0-9]*love[^a-z0-9]*katamari$|^welovekatamari$|^wlk$"
                 },
                 {
                     "name":  "Yakuza 2",
@@ -8788,6 +8888,11 @@
                     "regex":  "^pac[^a-z0-9]*man[^a-z0-9]*championship[^a-z0-9]*edition$|^pac[^a-z0-9]*man[^a-z0-9]*championship$|^pacmanchampionshipedition$"
                 },
                 {
+                    "name":  "Pac-Man World 3",
+                    "file":  "jingles/psp/Pac-Man World 3.mp3",
+                    "regex":  "^pac[^a-z0-9]*man[^a-z0-9]*world[^a-z0-9]*(?:3|iii)$|^pacmanworld3$|^pw3$"
+                },
+                {
                     "name":  "Patapon",
                     "file":  "jingles/psp/Patapon.mp3",
                     "regex":  "^patapon$"
@@ -8813,9 +8918,14 @@
                     "regex":  "^prinny[^a-z0-9]*can[^a-z0-9]*(?:i|1|one)[^a-z0-9]*really[^a-z0-9]*be[^a-z0-9]*the[^a-z0-9]*hero$|^prinny[^a-z0-9]*can[^a-z0-9]*(?:i|1|one)[^a-z0-9]*really[^a-z0-9]*be[^a-z0-9]*hero$|^prinnycanireallybethehero$|^pcirbh$"
                 },
                 {
-                    "name":  "Ridge Racer",
+                    "name":  "Ridge Racer 2",
+                    "file":  "jingles/psp/Ridge Racer 2.mp3",
+                    "regex":  "^ridge[^a-z0-9]*racer[^a-z0-9]*(?:2|ii)$|^ridgeracer2$|^rr2$"
+                },
+                {
+                    "name":  "Ridge Racer (PSP)",
                     "file":  "jingles/psp/ridge-racer.wav",
-                    "regex":  "^ridge[^a-z0-9]*racer$|^ridgeracer$"
+                    "regex":  "^ridge[^a-z0-9]*racer(?![^a-z0-9]*(?:(?:(?:2|ii)|64|64ds|ds|(?:v|5|five))))$|^ridgeracer$"
                 },
                 {
                     "name":  "Secret Agent Clank",
@@ -8841,6 +8951,11 @@
                     "name":  "Super Robot Taisen A - Portable",
                     "file":  "jingles/psp/Super Robot Taisen A - Portable.mp3",
                     "regex":  "^super[^a-z0-9]*robot[^a-z0-9]*taisen[^a-z0-9]*a[^a-z0-9]*portable$|^super[^a-z0-9]*robot[^a-z0-9]*taisen[^a-z0-9]*portable$|^superrobottaisenaportable$|^rtp$"
+                },
+                {
+                    "name":  "Tekken 5",
+                    "file":  "jingles/psp/Tekken 5.mp3",
+                    "regex":  "^tekken[^a-z0-9]*(?:5|v)$|^tekken5$"
                 },
                 {
                     "name":  "Tetris Ultimate",
