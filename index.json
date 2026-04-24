@@ -2187,82 +2187,82 @@
                 {
                     "name":  "Pokemon 97 Reforged",
                     "file":  "jingles/gbc/Pokemon 97 Reforged.wav",
-                    "regex":  "^pokemon[^a-z0-9]*97[^a-z0-9]*reforged$|^pokemon97reforged$|^97r$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*97[^a-z0-9]*reforged$|^pokemon97reforged$|^97r$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*97[^a-z0-9]*reforged(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Crystal",
                     "file":  "jingles/gbc/Pokemon Crystal.mp3",
-                    "regex":  "^pokemon[^a-z0-9]*crystal$|^pokemoncrystal$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*crystal$|^pokemoncrystal$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*crystal(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Gold",
                     "file":  "jingles/gbc/Pokemon Gold.mp3",
-                    "regex":  "^pokemon[^a-z0-9]*gold$|^pokemongold$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*gold$|^pokemongold$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*gold(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Pinball (GBC)",
                     "file":  "jingles/gbc/Pokemon Pinball.mp3",
-                    "regex":  "^pokemon[^a-z0-9]*pinball(?![^a-z0-9]*(?:(?:ruby)))$|^pokemonpinball$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*pinball(?![^a-z0-9]*(?:(?:ruby)))$|^pokemonpinball$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*pinball(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Pinball (GBC)",
                     "file":  "jingles/gbc/Pokemon Pinball.wav",
-                    "regex":  "^pokemon[^a-z0-9]*pinball(?![^a-z0-9]*(?:(?:ruby)))$|^pokemonpinball$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*pinball(?![^a-z0-9]*(?:(?:ruby)))$|^pokemonpinball$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*pinball(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Prism",
                     "file":  "jingles/gbc/Pokemon Prism.wav",
-                    "regex":  "^pokemon[^a-z0-9]*prism$|^pokemonprism$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*prism$|^pokemonprism$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*prism(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Puzzle Challenge",
                     "file":  "jingles/gbc/Pokemon Puzzle Challenge.mp3",
-                    "regex":  "^pokemon[^a-z0-9]*puzzle[^a-z0-9]*challenge$|^pokemonpuzzlechallenge$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*puzzle[^a-z0-9]*challenge$|^pokemonpuzzlechallenge$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*puzzle[^a-z0-9]*challenge(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Puzzle Challenge",
                     "file":  "jingles/gbc/Pokemon Puzzle Challenge.wav",
-                    "regex":  "^pokemon[^a-z0-9]*puzzle[^a-z0-9]*challenge$|^pokemonpuzzlechallenge$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*puzzle[^a-z0-9]*challenge$|^pokemonpuzzlechallenge$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*puzzle[^a-z0-9]*challenge(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Silver",
                     "file":  "jingles/gbc/Pokemon Silver.mp3",
-                    "regex":  "^pokemon[^a-z0-9]*silver$|^pokemonsilver$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*silver$|^pokemonsilver$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*silver(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon TCG 2",
                     "file":  "jingles/gbc/Pokemon TCG 2.wav",
-                    "regex":  "^pokemon[^a-z0-9]*tcg[^a-z0-9]*(?:2|ii)$|^pokemontcg2$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*tcg[^a-z0-9]*(?:2|ii)$|^pokemontcg2$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*tcg[^a-z0-9]*(?:2|ii)(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon TCG (GBC)",
                     "file":  "jingles/gbc/Pokemon TCG.wav",
-                    "regex":  "^pokemon[^a-z0-9]*tcg(?![^a-z0-9]*(?:(?:(?:2|ii))))$|^pokemontcg$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*tcg(?![^a-z0-9]*(?:(?:(?:2|ii))))$|^pokemontcg$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*tcg(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Trading Card Game 2",
                     "file":  "jingles/gbc/Pokemon Trading Card Game 2.ogg",
-                    "regex":  "^pokemon[^a-z0-9]*trading[^a-z0-9]*card[^a-z0-9]*game[^a-z0-9]*(?:2|ii)$|^pokemontradingcardgame2$|^tcg2$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*trading[^a-z0-9]*card[^a-z0-9]*game[^a-z0-9]*(?:2|ii)$|^pokemontradingcardgame2$|^tcg2$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*trading[^a-z0-9]*card[^a-z0-9]*game[^a-z0-9]*(?:2|ii)(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Trading Card Game 2",
                     "file":  "jingles/gbc/Pokemon Trading Card Game 2.wav",
-                    "regex":  "^pokemon[^a-z0-9]*trading[^a-z0-9]*card[^a-z0-9]*game[^a-z0-9]*(?:2|ii)$|^pokemontradingcardgame2$|^tcg2$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*trading[^a-z0-9]*card[^a-z0-9]*game[^a-z0-9]*(?:2|ii)$|^pokemontradingcardgame2$|^tcg2$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*trading[^a-z0-9]*card[^a-z0-9]*game[^a-z0-9]*(?:2|ii)(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Trading Card Game (GBC)",
                     "file":  "jingles/gbc/Pokemon Trading Card Game.mp3",
-                    "regex":  "^pokemon[^a-z0-9]*trading[^a-z0-9]*card[^a-z0-9]*game(?![^a-z0-9]*(?:(?:(?:2|ii))))$|^pokemontradingcardgame$|^tcg$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*trading[^a-z0-9]*card[^a-z0-9]*game(?![^a-z0-9]*(?:(?:(?:2|ii))))$|^pokemontradingcardgame$|^tcg$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*trading[^a-z0-9]*card[^a-z0-9]*game(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Trading Card Game (GBC)",
                     "file":  "jingles/gbc/Pokemon Trading Card Game.ogg",
-                    "regex":  "^pokemon[^a-z0-9]*trading[^a-z0-9]*card[^a-z0-9]*game(?![^a-z0-9]*(?:(?:(?:2|ii))))$|^pokemontradingcardgame$|^tcg$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*trading[^a-z0-9]*card[^a-z0-9]*game(?![^a-z0-9]*(?:(?:(?:2|ii))))$|^pokemontradingcardgame$|^tcg$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*trading[^a-z0-9]*card[^a-z0-9]*game(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Trading Card Game (GBC)",
                     "file":  "jingles/gbc/Pokemon Trading Card Game.wav",
-                    "regex":  "^pokemon[^a-z0-9]*trading[^a-z0-9]*card[^a-z0-9]*game(?![^a-z0-9]*(?:(?:(?:2|ii))))$|^pokemontradingcardgame$|^tcg$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*trading[^a-z0-9]*card[^a-z0-9]*game(?![^a-z0-9]*(?:(?:(?:2|ii))))$|^pokemontradingcardgame$|^tcg$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*trading[^a-z0-9]*card[^a-z0-9]*game(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Power Quest",
@@ -2849,47 +2849,47 @@
                 {
                     "name":  "Pokemon Lazarus",
                     "file":  "jingles/gba/Pokemon Lazarus.wav",
-                    "regex":  "^pokemon[^a-z0-9]*lazarus$|^pokemonlazarus$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*lazarus$|^pokemonlazarus$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*lazarus(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Mystery Dungeon - Red Rescue Team",
                     "file":  "jingles/gba/Pokemon Mystery Dungeon - Red Rescue Team.mp3",
-                    "regex":  "^pokemon[^a-z0-9]*mystery[^a-z0-9]*dungeon[^a-z0-9]*red[^a-z0-9]*rescue[^a-z0-9]*team$|^mdrrt$|^pmd[^a-z0-9]*red$|^red[^a-z0-9]*rescue[^a-z0-9]*team$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*mystery[^a-z0-9]*dungeon[^a-z0-9]*red[^a-z0-9]*rescue[^a-z0-9]*team$|^mdrrt$|^pmd[^a-z0-9]*red$|^red[^a-z0-9]*rescue[^a-z0-9]*team$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*mystery[^a-z0-9]*dungeon[^a-z0-9]*red[^a-z0-9]*rescue[^a-z0-9]*team(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Mystery Dungeon - Red Rescue Team",
                     "file":  "jingles/gba/Pokemon Mystery Dungeon - Red Rescue Team.wav",
-                    "regex":  "^pokemon[^a-z0-9]*mystery[^a-z0-9]*dungeon[^a-z0-9]*red[^a-z0-9]*rescue[^a-z0-9]*team$|^mdrrt$|^pmd[^a-z0-9]*red$|^red[^a-z0-9]*rescue[^a-z0-9]*team$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*mystery[^a-z0-9]*dungeon[^a-z0-9]*red[^a-z0-9]*rescue[^a-z0-9]*team$|^mdrrt$|^pmd[^a-z0-9]*red$|^red[^a-z0-9]*rescue[^a-z0-9]*team$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*mystery[^a-z0-9]*dungeon[^a-z0-9]*red[^a-z0-9]*rescue[^a-z0-9]*team(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Pinball Ruby and Sapphire",
                     "file":  "jingles/gba/Pokemon Pinball Ruby and Sapphire.wav",
-                    "regex":  "^pokemon[^a-z0-9]*pinball[^a-z0-9]*ruby[^a-z0-9]*(?:and|\u0026|n)[^a-z0-9]*sapphire$|^pras$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*pinball[^a-z0-9]*ruby[^a-z0-9]*(?:and|\u0026|n)[^a-z0-9]*sapphire$|^pras$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*pinball[^a-z0-9]*ruby[^a-z0-9]*(?:and|\u0026|n)[^a-z0-9]*sapphire(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Unbound",
                     "file":  "jingles/gba/Pokemon Unbound.wav",
-                    "regex":  "^pokemon[^a-z0-9]*unbound$|^pokemonunbound$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*unbound$|^pokemonunbound$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*unbound(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Emerald",
                     "file":  "jingles/gba/pokemon-emerald.wav",
-                    "regex":  "^pokemon[^a-z0-9]*emerald$|^pokemonemerald$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*emerald$|^pokemonemerald$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*emerald(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Fire Red",
                     "file":  "jingles/gba/pokemon-fire-red.wav",
-                    "regex":  "^pokemon[^a-z0-9]*fire[^a-z0-9]*red$|^pokemonfirered$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*fire[^a-z0-9]*red$|^pokemonfirered$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*fire[^a-z0-9]*red(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Lazarus",
                     "file":  "jingles/gba/pokemon-lazarus.wav",
-                    "regex":  "^pokemon[^a-z0-9]*lazarus$|^pokemonlazarus$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*lazarus$|^pokemonlazarus$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*lazarus(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Unbound",
                     "file":  "jingles/gba/pokemon-unbound.wav",
-                    "regex":  "^pokemon[^a-z0-9]*unbound$|^pokemonunbound$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*unbound$|^pokemonunbound$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*unbound(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Rayman Raving Rabbids",
@@ -3466,17 +3466,17 @@
                {
                    "name":  "Pokemon Colosseum",
                    "file":  "jingles/gc/Pokemon Colosseum.wav",
-                   "regex":  "^pokemon[^a-z0-9]*colosseum$|^pokemoncolosseum$"
+                   "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*colosseum$|^pokemoncolosseum$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*colosseum(?:[^a-z0-9]*(?:version))?$"
                },
                {
                    "name":  "Pokemon XD Gale of Darkness",
                    "file":  "jingles/gc/Pokemon XD Gale of Darkness.wav",
-                   "regex":  "^pokemon[^a-z0-9]*xd[^a-z0-9]*gale[^a-z0-9]*of[^a-z0-9]*darkness$|^pokemon[^a-z0-9]*xd[^a-z0-9]*gale[^a-z0-9]*darkness$|^pokemonxdgaleofdarkness$|^xgd$"
+                   "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*xd[^a-z0-9]*gale[^a-z0-9]*of[^a-z0-9]*darkness$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*xd[^a-z0-9]*gale[^a-z0-9]*darkness$|^pokemonxdgaleofdarkness$|^xgd$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*xd[^a-z0-9]*gale[^a-z0-9]*of[^a-z0-9]*darkness(?:[^a-z0-9]*(?:version))?$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*xd[^a-z0-9]*gale[^a-z0-9]*darkness(?:[^a-z0-9]*(?:version))?$"
                },
                {
                    "name":  "Pokemon XD (GC)",
                    "file":  "jingles/gc/Pokemon XD.flac",
-                   "regex":  "^pokemon[^a-z0-9]*xd(?![^a-z0-9]*(?:(?:gale)))$|^pokemonxd$"
+                   "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*xd(?![^a-z0-9]*(?:(?:gale)))$|^pokemonxd$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*xd(?:[^a-z0-9]*(?:version))?$"
                },
                {
                    "name":  "Mario Power Tennis",
@@ -4128,52 +4128,52 @@
                 {
                     "name":  "Pokemon Mystery Dungeon Explorers of Sky",
                     "file":  "jingles/nds/Pokemon Mystery Dungeon Explorers of Sky.wav",
-                    "regex":  "^pokemon[^a-z0-9]*mystery[^a-z0-9]*dungeon[^a-z0-9]*explorers[^a-z0-9]*of[^a-z0-9]*sky$|^pokemon[^a-z0-9]*mystery[^a-z0-9]*dungeon[^a-z0-9]*explorers[^a-z0-9]*sky$|^mdes$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*mystery[^a-z0-9]*dungeon[^a-z0-9]*explorers[^a-z0-9]*of[^a-z0-9]*sky$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*mystery[^a-z0-9]*dungeon[^a-z0-9]*explorers[^a-z0-9]*sky$|^mdes$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*mystery[^a-z0-9]*dungeon[^a-z0-9]*explorers[^a-z0-9]*of[^a-z0-9]*sky(?:[^a-z0-9]*(?:version))?$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*mystery[^a-z0-9]*dungeon[^a-z0-9]*explorers[^a-z0-9]*sky(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Ranger - Guardian Signs",
                     "file":  "jingles/nds/Pokemon Ranger - Guardian Signs.wav",
-                    "regex":  "^pokemon[^a-z0-9]*ranger[^a-z0-9]*guardian[^a-z0-9]*signs$|^pokemonrangerguardiansigns$|^rgs$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*ranger[^a-z0-9]*guardian[^a-z0-9]*signs$|^pokemonrangerguardiansigns$|^rgs$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*ranger[^a-z0-9]*guardian[^a-z0-9]*signs(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Ranger - Shadows of Almia",
                     "file":  "jingles/nds/Pokemon Ranger - Shadows of Almia.wav",
-                    "regex":  "^pokemon[^a-z0-9]*ranger[^a-z0-9]*shadows[^a-z0-9]*of[^a-z0-9]*almia$|^pokemon[^a-z0-9]*ranger[^a-z0-9]*shadows[^a-z0-9]*almia$|^pokemonrangershadowsofalmia$|^rsa$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*ranger[^a-z0-9]*shadows[^a-z0-9]*of[^a-z0-9]*almia$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*ranger[^a-z0-9]*shadows[^a-z0-9]*almia$|^pokemonrangershadowsofalmia$|^rsa$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*ranger[^a-z0-9]*shadows[^a-z0-9]*of[^a-z0-9]*almia(?:[^a-z0-9]*(?:version))?$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*ranger[^a-z0-9]*shadows[^a-z0-9]*almia(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Ranger (DS)",
                     "file":  "jingles/nds/Pokemon Ranger.wav",
-                    "regex":  "^pokemon[^a-z0-9]*ranger(?![^a-z0-9]*(?:(?:guardian|shadows)))$|^pokemonranger$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*ranger(?![^a-z0-9]*(?:(?:guardian|shadows)))$|^pokemonranger$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*ranger(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Black 2",
                     "file":  "jingles/nds/pokemon-black-2.wav",
-                    "regex":  "^pokemon[^a-z0-9]*black[^a-z0-9]*(?:2|ii)$|^pokemonblack2$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*black[^a-z0-9]*(?:2|ii)$|^pokemonblack2$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*black[^a-z0-9]*(?:2|ii)(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Black / White",
                     "file":  "jingles/nds/pokemon-bw.wav",
-                    "regex":  "^pokemon[^a-z0-9]*bw$|^pokemonbw$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*bw$|^pokemonbw$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*bw(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Diamond / Pearl",
                     "file":  "jingles/nds/pokemon-dp.wav",
-                    "regex":  "^pokemon[^a-z0-9]*dp$|^pokemondp$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*dp$|^pokemondp$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*dp(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon HeartGold / SoulSilver",
                     "file":  "jingles/nds/pokemon-hgss.wav",
-                    "regex":  "^pokemon[^a-z0-9]*hgss$|^pokemonhgss$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*hgss$|^pokemonhgss$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*hgss(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Platinum",
                     "file":  "jingles/nds/pokemon-platinum.wav",
-                    "regex":  "^pokemon[^a-z0-9]*platinum$|^pokemonplatinum$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*platinum$|^pokemonplatinum$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*platinum(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon White 2",
                     "file":  "jingles/nds/pokemon-white-2.wav",
-                    "regex":  "^pokemon[^a-z0-9]*white[^a-z0-9]*(?:2|ii)$|^pokemonwhite2$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*white[^a-z0-9]*(?:2|ii)$|^pokemonwhite2$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*white[^a-z0-9]*(?:2|ii)(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Professor Layton and Pandora\u0027s Box",
@@ -4358,32 +4358,32 @@
                 {
                     "name":  "Pokemon Black",
                     "file":  "jingles/nds/pokemon-bw.wav",
-                    "regex":  "^pokemon[^a-z0-9]*black$|^pokemonblack$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*black$|^pokemonblack$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*black(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon White",
                     "file":  "jingles/nds/pokemon-bw.wav",
-                    "regex":  "^pokemon[^a-z0-9]*white$|^pokemonwhite$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*white$|^pokemonwhite$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*white(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Diamond",
                     "file":  "jingles/nds/pokemon-dp.wav",
-                    "regex":  "^pokemon[^a-z0-9]*diamond$|^pokemondiamond$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*diamond$|^pokemondiamond$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*diamond(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Pearl",
                     "file":  "jingles/nds/pokemon-dp.wav",
-                    "regex":  "^pokemon[^a-z0-9]*pearl$|^pokemonpearl$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*pearl$|^pokemonpearl$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*pearl(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon HeartGold",
                     "file":  "jingles/nds/pokemon-hgss.wav",
-                    "regex":  "^pokemon[^a-z0-9]*heartgold$|^pokemonheartgold$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*heartgold$|^pokemonheartgold$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*heartgold(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon SoulSilver",
                     "file":  "jingles/nds/pokemon-hgss.wav",
-                    "regex":  "^pokemon[^a-z0-9]*soulsilver$|^pokemonsoulsilver$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*soulsilver$|^pokemonsoulsilver$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*soulsilver(?:[^a-z0-9]*(?:version))?$"
                 }
             ],
     "wii":  [
@@ -4580,7 +4580,7 @@
                 {
                     "name":  "Pokemon Battle Revolution",
                     "file":  "jingles/wii/pokemon-battle-revolution.wav",
-                    "regex":  "^pokemon[^a-z0-9]*battle[^a-z0-9]*revolution$|^pokemonbattlerevolution$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*battle[^a-z0-9]*revolution$|^pokemonbattlerevolution$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*battle[^a-z0-9]*revolution(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Punch Out",
@@ -5282,82 +5282,82 @@
                  {
                      "name":  "Pokemon Alpha Saphire",
                      "file":  "jingles/n3ds/pokemon-alpha-saphire.wav",
-                     "regex":  "^pokemon[^a-z0-9]*alpha[^a-z0-9]*saphire$|^pokemonalphasaphire$"
+                     "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*alpha[^a-z0-9]*saphire$|^pokemonalphasaphire$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*alpha[^a-z0-9]*saphire(?:[^a-z0-9]*(?:version))?$"
                  },
                  {
                      "name":  "Pokemon Alpha Sapphire",
                      "file":  "jingles/n3ds/pokemon-alpha-sapphire.wav",
-                     "regex":  "^pokemon[^a-z0-9]*alpha[^a-z0-9]*sapphire$|^pokemonalphasapphire$"
+                     "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*alpha[^a-z0-9]*sapphire$|^pokemonalphasapphire$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*alpha[^a-z0-9]*sapphire(?:[^a-z0-9]*(?:version))?$"
                  },
                  {
                      "name":  "Pokemon Art Academy",
                      "file":  "jingles/n3ds/pokemon-art-academy.wav",
-                     "regex":  "^pokemon[^a-z0-9]*art[^a-z0-9]*academy$|^pokemonartacademy$"
+                     "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*art[^a-z0-9]*academy$|^pokemonartacademy$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*art[^a-z0-9]*academy(?:[^a-z0-9]*(?:version))?$"
                  },
                  {
                      "name":  "Pokemon Moon",
                      "file":  "jingles/n3ds/pokemon-moon.wav",
-                     "regex":  "^pokemon[^a-z0-9]*moon$|^pokemonmoon$"
+                     "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*moon$|^pokemonmoon$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*moon(?:[^a-z0-9]*(?:version))?$"
                  },
                  {
                      "name":  "Pokemon Mystery Dungeon Gates to Infinity",
                      "file":  "jingles/n3ds/pokemon-mystery-dungeon-gates-to-infinity.wav",
-                     "regex":  "^pokemon[^a-z0-9]*mystery[^a-z0-9]*dungeon[^a-z0-9]*gates[^a-z0-9]*to[^a-z0-9]*infinity$|^pokemon[^a-z0-9]*mystery[^a-z0-9]*dungeon[^a-z0-9]*gates[^a-z0-9]*infinity$|^mdgi$"
+                     "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*mystery[^a-z0-9]*dungeon[^a-z0-9]*gates[^a-z0-9]*to[^a-z0-9]*infinity$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*mystery[^a-z0-9]*dungeon[^a-z0-9]*gates[^a-z0-9]*infinity$|^mdgi$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*mystery[^a-z0-9]*dungeon[^a-z0-9]*gates[^a-z0-9]*to[^a-z0-9]*infinity(?:[^a-z0-9]*(?:version))?$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*mystery[^a-z0-9]*dungeon[^a-z0-9]*gates[^a-z0-9]*infinity(?:[^a-z0-9]*(?:version))?$"
                  },
                  {
                      "name":  "Pokemon Omega Ruby",
                      "file":  "jingles/n3ds/pokemon-omega-ruby.wav",
-                     "regex":  "^pokemon[^a-z0-9]*omega[^a-z0-9]*ruby$|^pokemonomegaruby$"
+                     "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*omega[^a-z0-9]*ruby$|^pokemonomegaruby$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*omega[^a-z0-9]*ruby(?:[^a-z0-9]*(?:version))?$"
                  },
                  {
                      "name":  "Pokemon Picross",
                      "file":  "jingles/n3ds/pokemon-picross.wav",
-                     "regex":  "^pokemon[^a-z0-9]*picross$|^pokemonpicross$"
+                     "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*picross$|^pokemonpicross$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*picross(?:[^a-z0-9]*(?:version))?$"
                  },
                  {
                      "name":  "Pokemon Rumble Blast",
                      "file":  "jingles/n3ds/pokemon-rumble-blast.wav",
-                     "regex":  "^pokemon[^a-z0-9]*rumble[^a-z0-9]*blast$|^pokemonrumbleblast$"
+                     "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*rumble[^a-z0-9]*blast$|^pokemonrumbleblast$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*rumble[^a-z0-9]*blast(?:[^a-z0-9]*(?:version))?$"
                  },
                  {
                      "name":  "Pokemon Rumble World",
                      "file":  "jingles/n3ds/pokemon-rumble-world.wav",
-                     "regex":  "^pokemon[^a-z0-9]*rumble[^a-z0-9]*world$|^pokemonrumbleworld$"
+                     "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*rumble[^a-z0-9]*world$|^pokemonrumbleworld$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*rumble[^a-z0-9]*world(?:[^a-z0-9]*(?:version))?$"
                  },
                  {
                      "name":  "Pokemon Shuffle",
                      "file":  "jingles/n3ds/pokemon-shuffle.wav",
-                     "regex":  "^pokemon[^a-z0-9]*shuffle$|^pokemonshuffle$"
+                     "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*shuffle$|^pokemonshuffle$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*shuffle(?:[^a-z0-9]*(?:version))?$"
                  },
                  {
                      "name":  "Pokemon Sun",
                      "file":  "jingles/n3ds/pokemon-sun.wav",
-                     "regex":  "^pokemon[^a-z0-9]*sun$|^pokemonsun$"
+                     "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*sun$|^pokemonsun$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*sun(?:[^a-z0-9]*(?:version))?$"
                  },
                  {
                      "name":  "Pokemon Super Mystery Dungeon",
                      "file":  "jingles/n3ds/pokemon-super-mystery-dungeon.wav",
-                     "regex":  "^pokemon[^a-z0-9]*super[^a-z0-9]*mystery[^a-z0-9]*dungeon$|^pokemonsupermysterydungeon$"
+                     "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*super[^a-z0-9]*mystery[^a-z0-9]*dungeon$|^pokemonsupermysterydungeon$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*super[^a-z0-9]*mystery[^a-z0-9]*dungeon(?:[^a-z0-9]*(?:version))?$"
                  },
                  {
                      "name":  "Pokemon Ultra Moon",
                      "file":  "jingles/n3ds/pokemon-ultra-moon.wav",
-                     "regex":  "^pokemon[^a-z0-9]*ultra[^a-z0-9]*moon$|^pokemonultramoon$"
+                     "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*ultra[^a-z0-9]*moon$|^pokemonultramoon$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*ultra[^a-z0-9]*moon(?:[^a-z0-9]*(?:version))?$"
                  },
                  {
                      "name":  "Pokemon Ultra Sun",
                      "file":  "jingles/n3ds/pokemon-ultra-sun.wav",
-                     "regex":  "^pokemon[^a-z0-9]*ultra[^a-z0-9]*sun$|^pokemonultrasun$"
+                     "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*ultra[^a-z0-9]*sun$|^pokemonultrasun$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*ultra[^a-z0-9]*sun(?:[^a-z0-9]*(?:version))?$"
                  },
                  {
                      "name":  "Pokemon X",
                      "file":  "jingles/n3ds/pokemon-x.wav",
-                     "regex":  "^pokemon[^a-z0-9]*(?:x|10|ten)$|^pokemonx$"
+                     "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*(?:x|10|ten)$|^pokemonx$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*(?:x|10|ten)(?:[^a-z0-9]*(?:version))?$"
                  },
                  {
                      "name":  "Pokemon Y",
                      "file":  "jingles/n3ds/pokemon-y.wav",
-                     "regex":  "^pokemon[^a-z0-9]*y$|^pokemony$"
+                     "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*y$|^pokemony$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*y(?:[^a-z0-9]*(?:version))?$"
                  },
                  {
                      "name":  "Poochy Yoshis Woolly World",
@@ -6151,7 +6151,7 @@
                    {
                        "name":  "New Pokemon Snap",
                        "file":  "jingles/switch/New Pokemon Snap.wav",
-                       "regex":  "^new[^a-z0-9]*pokemon[^a-z0-9]*snap$|^newpokemonsnap$"
+                       "regex":  "^new[^a-z0-9]*pok(?:e|\\x{00E9})mon[^a-z0-9]*snap$|^newpokemonsnap$"
                    },
                    {
                        "name":  "New Super Mario Bros U Deluxe",
@@ -6216,47 +6216,47 @@
                    {
                        "name":  "Pokemon Brilliant Diamond",
                        "file":  "jingles/switch/Pokemon Brilliant Diamond.mp3",
-                       "regex":  "^pokemon[^a-z0-9]*brilliant[^a-z0-9]*diamond$|^pokemonbrilliantdiamond$"
+                       "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*brilliant[^a-z0-9]*diamond$|^pokemonbrilliantdiamond$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*brilliant[^a-z0-9]*diamond(?:[^a-z0-9]*(?:version))?$"
                    },
                    {
                        "name":  "Pokemon Mystery Dungeon (Switch)",
                        "file":  "jingles/switch/Pokemon Mystery Dungeon.wav",
-                       "regex":  "^pokemon[^a-z0-9]*mystery[^a-z0-9]*dungeon(?![^a-z0-9]*(?:(?:explorers|gates|red)))$|^pokemonmysterydungeon$|^pokemon[^a-z0-9]*myst(?:ery|e?ry)[^a-z0-9]*d(?:ungeon|ungn)$|^pmd$"
+                       "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*mystery[^a-z0-9]*dungeon(?![^a-z0-9]*(?:(?:explorers|gates|red)))$|^pokemonmysterydungeon$|^pokemon[^a-z0-9]*myst(?:ery|e?ry)[^a-z0-9]*d(?:ungeon|ungn)$|^pmd$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*mystery[^a-z0-9]*dungeon(?:[^a-z0-9]*(?:version))?$"
                    },
                    {
                        "name":  "Pokemon Scarlet",
                        "file":  "jingles/switch/Pokemon Scarlet.mp3",
-                       "regex":  "^pokemon[^a-z0-9]*scarlet$|^pokemonscarlet$"
+                       "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*scarlet$|^pokemonscarlet$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*scarlet(?:[^a-z0-9]*(?:version))?$"
                    },
                    {
                        "name":  "Pokemon Shining Pearl",
                        "file":  "jingles/switch/Pokemon Shining Pearl.mp3",
-                       "regex":  "^pokemon[^a-z0-9]*shining[^a-z0-9]*pearl$|^pokemonshiningpearl$"
+                       "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*shining[^a-z0-9]*pearl$|^pokemonshiningpearl$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*shining[^a-z0-9]*pearl(?:[^a-z0-9]*(?:version))?$"
                    },
                    {
                        "name":  "Pokemon Violet",
                        "file":  "jingles/switch/Pokemon Violet.mp3",
-                       "regex":  "^pokemon[^a-z0-9]*violet$|^pokemonviolet$"
+                       "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*violet$|^pokemonviolet$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*violet(?:[^a-z0-9]*(?:version))?$"
                    },
                    {
                        "name":  "Pokemon Arceus",
                        "file":  "jingles/switch/pokemon-arceus.wav",
-                       "regex":  "^pokemon[^a-z0-9]*arceus$|^pokemonarceus$"
+                       "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*arceus$|^pokemonarceus$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*arceus(?:[^a-z0-9]*(?:version))?$"
                    },
                    {
                        "name":  "Pokemon Brilliant Diamond / Shining Pearl",
                        "file":  "jingles/switch/pokemon-bdsp.wav",
-                       "regex":  "^pokemon[^a-z0-9]*bdsp$|^pokemonbdsp$"
+                       "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*bdsp$|^pokemonbdsp$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*bdsp(?:[^a-z0-9]*(?:version))?$"
                    },
                    {
                        "name":  "Pokemon Swsh",
                        "file":  "jingles/switch/pokemon-swsh.wav",
-                       "regex":  "^pokemon[^a-z0-9]*swsh$|^pokemonswsh$"
+                       "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*swsh$|^pokemonswsh$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*swsh(?:[^a-z0-9]*(?:version))?$"
                    },
                    {
                        "name":  "Pokemon Za",
                        "file":  "jingles/switch/pokemon-za.wav",
-                       "regex":  "^pokemon[^a-z0-9]*za$|^pokemonza$"
+                       "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*za$|^pokemonza$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*za(?:[^a-z0-9]*(?:version))?$"
                    },
                    {
                        "name":  "Princess Peach Showtime",
@@ -6421,12 +6421,12 @@
                    {
                        "name":  "Pokemon Brilliant Diamond",
                        "file":  "jingles/switch/pokemon-bdsp.wav",
-                       "regex":  "^pokemon[^a-z0-9]*brilliant[^a-z0-9]*diamond$|^pokemonbrilliantdiamond$"
+                       "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*brilliant[^a-z0-9]*diamond$|^pokemonbrilliantdiamond$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*brilliant[^a-z0-9]*diamond(?:[^a-z0-9]*(?:version))?$"
                    },
                    {
                        "name":  "Pokemon Shining Pearl",
                        "file":  "jingles/switch/pokemon-bdsp.wav",
-                       "regex":  "^pokemon[^a-z0-9]*shining[^a-z0-9]*pearl$|^pokemonshiningpearl$"
+                       "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*shining[^a-z0-9]*pearl$|^pokemonshiningpearl$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*shining[^a-z0-9]*pearl(?:[^a-z0-9]*(?:version))?$"
                    }
                ],
     "megadrive":  [

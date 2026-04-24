@@ -3,6 +3,7 @@ $ErrorActionPreference = 'Stop'
 function Normalize-Token([string]$token) {
   $t = $token.ToLowerInvariant()
   switch ($t) {
+    'pokemon' { return 'pok(?:e|\x{00E9})mon' }
     'and' { return '(?:and|&|n)' }
     '&' { return '(?:and|&|n)' }
     'n' { return '(?:and|&|n)' }
@@ -351,6 +352,13 @@ foreach ($entry in $entries) {
     Add-Pattern $patterns $alias
   }
 
+  if ($entry.Normalized -like 'pokemon *') {
+    Add-Pattern $patterns ('^' + $titlePattern + '(?:[^a-z0-9]*(?:version))?$')
+    if ($significantPattern -ne $titlePattern) {
+      Add-Pattern $patterns ('^' + $significantPattern + '(?:[^a-z0-9]*(?:version))?$')
+    }
+  }
+
   $root[$entry.System].Add([ordered]@{
     name = $displayName
     file = $entry.File
@@ -375,6 +383,13 @@ foreach ($entry in $splitEntries) {
 
   foreach ($alias in Get-Aliases $entry.Normalized) {
     Add-Pattern $patterns $alias
+  }
+
+  if ($entry.Normalized -like 'pokemon *') {
+    Add-Pattern $patterns ('^' + $titlePattern + '(?:[^a-z0-9]*(?:version))?$')
+    if ($significantPattern -ne $titlePattern) {
+      Add-Pattern $patterns ('^' + $significantPattern + '(?:[^a-z0-9]*(?:version))?$')
+    }
   }
 
   $root[$entry.System].Add([ordered]@{
