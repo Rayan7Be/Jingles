@@ -92,6 +92,23 @@ function Get-DisplayName([string]$baseName) {
   return ($out -join ' ')
 }
 
+function Get-SystemLabel([string]$system) {
+  $labels = @{
+    'nes' = 'NES'
+    'snes' = 'SNES'
+    'n64' = 'N64'
+    'gbc' = 'GBC'
+    'gba' = 'GBA'
+    'gc' = 'GC'
+    'nds' = 'DS'
+    'wii' = 'Wii'
+    'n3ds' = '3DS'
+    'wiiu' = 'Wii U'
+    'switch' = 'Switch'
+  }
+  return $labels[$system]
+}
+
 function Get-Aliases([string]$normalizedName) {
   $aliases = @{
     'tomodachi life' = @('^tomodachi[^a-z0-9]*life(?![^a-z0-9]*(?:living|livin|live|dream))$')
@@ -179,9 +196,11 @@ foreach ($entry in $entries) {
   $patterns = New-Object 'System.Collections.Generic.List[string]'
   $titlePattern = Join-Separators $entry.Tokens
   $significantPattern = Join-Separators $entry.Significant
+  $displayName = $entry.Name
 
   $excludeTokens = @($familyMap[$entry.File] | Sort-Object -Unique)
   if ($excludeTokens.Count -gt 0) {
+    $displayName = '{0} ({1})' -f $entry.Name, (Get-SystemLabel $entry.System)
     $excludePattern = '(?:' + ((@($excludeTokens | ForEach-Object { Normalize-Token $_ })) -join '|') + ')'
     Add-Pattern $patterns ('^' + $titlePattern + '(?![^a-z0-9]*(?:' + $excludePattern + '))$')
     if ($significantPattern -ne $titlePattern) {
@@ -210,7 +229,7 @@ foreach ($entry in $entries) {
   }
 
   $root[$entry.System].Add([ordered]@{
-    name = $entry.Name
+    name = $displayName
     file = $entry.File
     regex = ($patterns -join '|')
   })
