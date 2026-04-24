@@ -2,7 +2,7 @@
 
 The Ultimate Video Game Jingle Repo for Cocoon.
 
-This repository currently contains **1,981 jingles** and started as a large Nintendo-focused collection before expanding into a full multi-platform library.
+This repository currently contains **2,004 jingles** and started as a large Nintendo-focused collection before expanding into a full multi-platform library.
 
 Nintendo is still the core of the repo, but `v2.0` adds a massive batch of new jingles from Sega, PlayStation, Dreamcast, Saturn, Steam, and several smaller niche platforms as well.
 
@@ -17,13 +17,13 @@ After that, you can individually choose which jingle you want per game.
 - GB (**6**)
 - GBC (**94**)
 - GBA (**139**)
-- NES (**184**)
-- SNES (**168**)
-- N64 (**27**)
+- NES (**185**)
+- SNES (**169**)
+- N64 (**28**)
 - GC (**140**)
 - DS (**116**)
 - 3DS (**176**)
-- Wii (**70**)
+- Wii (**71**)
 - Wii U (**51**)
 - Switch (**108**)
 - Mega Drive (**153**)
@@ -34,7 +34,7 @@ After that, you can individually choose which jingle you want per game.
 - PS2 (**103**)
 - PSP (**69**)
 - PS Vita (**13**)
-- Steam (**175**)
+- Steam (**194**)
 - Xbox 360 (**1**)
 - PC-98 (**5**)
 - MSX (**2**)
