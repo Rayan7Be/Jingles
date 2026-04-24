@@ -2867,6 +2867,11 @@
                     "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*pinball[^a-z0-9]*ruby[^a-z0-9]*(?:and|\u0026|n)[^a-z0-9]*sapphire$|^pras$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*pinball[^a-z0-9]*ruby[^a-z0-9]*(?:and|\u0026|n)[^a-z0-9]*sapphire(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
+                    "name":  "Pokemon Ultra Violet",
+                    "file":  "jingles/gba/Pokemon Ultra Violet.wav",
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*ultra[^a-z0-9]*violet$|^pokemonultraviolet$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*ultra[^a-z0-9]*violet(?:[^a-z0-9]*(?:version))?$"
+                },
+                {
                     "name":  "Pokemon Unbound",
                     "file":  "jingles/gba/Pokemon Unbound.wav",
                     "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*unbound$|^pokemonunbound$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*unbound(?:[^a-z0-9]*(?:version))?$"
