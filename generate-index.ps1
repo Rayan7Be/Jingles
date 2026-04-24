@@ -94,6 +94,7 @@ function Get-DisplayName([string]$baseName) {
 
 function Get-SystemLabel([string]$system) {
   $labels = @{
+    'gb' = 'GB'
     'nes' = 'NES'
     'snes' = 'SNES'
     'n64' = 'N64'
@@ -143,7 +144,7 @@ function Get-Aliases([string]$normalizedName) {
   return @()
 }
 
-$systems = @('nes','snes','n64','gbc','gba','gc','nds','wii','n3ds','wiiu','switch')
+$systems = @('gb','nes','snes','n64','gbc','gba','gc','nds','wii','n3ds','wiiu','switch')
 $entries = New-Object System.Collections.Generic.List[object]
 
 foreach ($system in $systems) {
