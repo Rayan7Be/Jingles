@@ -4354,6 +4354,36 @@
                     "name":  "Zoo Keeper",
                     "file":  "jingles/nds/Zoo Keeper.wav",
                     "regex":  "^zoo[^a-z0-9]*keeper$|^zookeeper$"
+                },
+                {
+                    "name":  "Pokemon Black",
+                    "file":  "jingles/nds/pokemon-bw.wav",
+                    "regex":  "^pokemon[^a-z0-9]*black$|^pokemonblack$"
+                },
+                {
+                    "name":  "Pokemon White",
+                    "file":  "jingles/nds/pokemon-bw.wav",
+                    "regex":  "^pokemon[^a-z0-9]*white$|^pokemonwhite$"
+                },
+                {
+                    "name":  "Pokemon Diamond",
+                    "file":  "jingles/nds/pokemon-dp.wav",
+                    "regex":  "^pokemon[^a-z0-9]*diamond$|^pokemondiamond$"
+                },
+                {
+                    "name":  "Pokemon Pearl",
+                    "file":  "jingles/nds/pokemon-dp.wav",
+                    "regex":  "^pokemon[^a-z0-9]*pearl$|^pokemonpearl$"
+                },
+                {
+                    "name":  "Pokemon HeartGold",
+                    "file":  "jingles/nds/pokemon-hgss.wav",
+                    "regex":  "^pokemon[^a-z0-9]*heartgold$|^pokemonheartgold$"
+                },
+                {
+                    "name":  "Pokemon SoulSilver",
+                    "file":  "jingles/nds/pokemon-hgss.wav",
+                    "regex":  "^pokemon[^a-z0-9]*soulsilver$|^pokemonsoulsilver$"
                 }
             ],
     "wii":  [
@@ -6387,6 +6417,16 @@
                        "name":  "Zelda Link\u0027s Awakening Switch",
                        "file":  "jingles/switch/Zelda Link\u0027s Awakening Switch.mp3",
                        "regex":  "^zelda[^a-z0-9]*link\u0027s[^a-z0-9]*awakening[^a-z0-9]*switch$|^zeldalink\u0027sawakeningswitch$|^las$"
+                   },
+                   {
+                       "name":  "Pokemon Brilliant Diamond",
+                       "file":  "jingles/switch/pokemon-bdsp.wav",
+                       "regex":  "^pokemon[^a-z0-9]*brilliant[^a-z0-9]*diamond$|^pokemonbrilliantdiamond$"
+                   },
+                   {
+                       "name":  "Pokemon Shining Pearl",
+                       "file":  "jingles/switch/pokemon-bdsp.wav",
+                       "regex":  "^pokemon[^a-z0-9]*shining[^a-z0-9]*pearl$|^pokemonshiningpearl$"
                    }
                ],
     "megadrive":  [

@@ -158,6 +158,33 @@ function Get-Aliases([string]$normalizedName) {
   return @()
 }
 
+function Get-SplitEntries($entry) {
+  $splitMap = @{
+    'jingles/nds/pokemon-bw.wav' = @('Pokemon Black', 'Pokemon White')
+    'jingles/nds/pokemon-dp.wav' = @('Pokemon Diamond', 'Pokemon Pearl')
+    'jingles/nds/pokemon-hgss.wav' = @('Pokemon HeartGold', 'Pokemon SoulSilver')
+    'jingles/switch/pokemon-bdsp.wav' = @('Pokemon Brilliant Diamond', 'Pokemon Shining Pearl')
+  }
+
+  if (-not $splitMap.ContainsKey($entry.File)) { return @() }
+
+  return @($splitMap[$entry.File] | ForEach-Object {
+    $splitTokens = Get-Tokens $_
+    $splitSignificant = Get-SignificantTokens $splitTokens
+    if (-not $splitSignificant.Count) { $splitSignificant = $splitTokens }
+    [pscustomobject]@{
+      System = $entry.System
+      Name = $_
+      File = $entry.File
+      Tokens = $splitTokens
+      Significant = $splitSignificant
+      Normalized = ($splitSignificant -join ' ')
+      RawBase = $entry.RawBase
+      IsSplit = $true
+    }
+  })
+}
+
 $systems = @('gb','nes','snes','n64','gbc','gba','gc','nds','wii','n3ds','wiiu','switch','megadrive','segacd','saturn','dreamcast','psx','ps2','psp','psv','xbox360','steam','pc98','ngpc','cdi','msx')
 $entries = New-Object System.Collections.Generic.List[object]
 
@@ -177,6 +204,13 @@ foreach ($system in $systems) {
       Normalized = $normalizedName
       RawBase = $baseName
     })
+  }
+}
+
+$splitEntries = New-Object System.Collections.Generic.List[object]
+foreach ($entry in $entries) {
+  foreach ($splitEntry in Get-SplitEntries $entry) {
+    $splitEntries.Add($splitEntry)
   }
 }
 
@@ -245,6 +279,32 @@ foreach ($entry in $entries) {
 
   $root[$entry.System].Add([ordered]@{
     name = $displayName
+    file = $entry.File
+    regex = ($patterns -join '|')
+  })
+}
+
+foreach ($entry in $splitEntries) {
+  $patterns = New-Object 'System.Collections.Generic.List[string]'
+  $titlePattern = Join-Separators $entry.Tokens
+  $significantPattern = Join-Separators $entry.Significant
+
+  Add-Pattern $patterns ('^' + $titlePattern + '$')
+  if ($significantPattern -ne $titlePattern) {
+    Add-Pattern $patterns ('^' + $significantPattern + '$')
+  }
+
+  $compact = Get-Compact $entry.Tokens
+  if ($compact.Length -le 28) {
+    Add-Pattern $patterns ('^' + [regex]::Escape($compact) + '$')
+  }
+
+  foreach ($alias in Get-Aliases $entry.Normalized) {
+    Add-Pattern $patterns $alias
+  }
+
+  $root[$entry.System].Add([ordered]@{
+    name = $entry.Name
     file = $entry.File
     regex = ($patterns -join '|')
   })
