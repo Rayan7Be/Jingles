@@ -4628,6 +4628,11 @@
                     "regex":  "^nights[^a-z0-9]*journey[^a-z0-9]*of[^a-z0-9]*dreams$|^nights[^a-z0-9]*journey[^a-z0-9]*dreams$|^nightsjourneyofdreams$|^njd$"
                 },
                 {
+                    "name":  "One Piece Unlimited Adventure",
+                    "file":  "jingles/wii/One Piece Unlimited Adventure.mp3",
+                    "regex":  "^one[^a-z0-9]*piece[^a-z0-9]*unlimited[^a-z0-9]*adventure$|^onepieceunlimitedadventure$|^opua$"
+                },
+                {
                     "name":  "Pandoras Tower",
                     "file":  "jingles/wii/pandoras-tower.wav",
                     "regex":  "^pandoras[^a-z0-9]*tower$|^pandorastower$"
