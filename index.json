@@ -9351,6 +9351,11 @@
                     "regex":  "^burnout[^a-z0-9]*(?:3|iii)[^a-z0-9]*takedown(?![^a-z0-9]*(?:(?:alt)))$|^burnout3takedown$|^b3t$"
                 },
                 {
+                    "name":  "Burnout Revenge",
+                    "file":  "jingles/ps2/Burnout Revenge.mp3",
+                    "regex":  "^burnout[^a-z0-9]*revenge$|^burnoutrevenge$"
+                },
+                {
                     "name":  "Capcom vs SNK 2 Alt",
                     "file":  "jingles/ps2/Capcom vs SNK 2 Alt.wav",
                     "regex":  "^capcom[^a-z0-9]*(?:vs|versus)[^a-z0-9]*snk[^a-z0-9]*(?:2|ii)[^a-z0-9]*alt$|^capcomvssnk2alt$|^cvs2a$"
