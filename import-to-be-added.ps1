@@ -69,6 +69,8 @@ function Resolve-SystemFromBracket([string]$baseName) {
       'WII' { return 'wii' }
       'WII U' { return 'wiiu' }
       'SWITCH' { return 'switch' }
+      'ANDROID' { return 'androidgames' }
+      'ANDROID GAMES' { return 'androidgames' }
       'DREAMCAST' { return 'dreamcast' }
       'SATURN' { return 'saturn' }
       'MEGADRIVE' { return 'megadrive' }
@@ -77,7 +79,7 @@ function Resolve-SystemFromBracket([string]$baseName) {
     }
   }
 
-  if ($baseName -match '\((?<tag>DS|3DS|PS1|PS2|PSP|WII|SWITCH|GC|N64|SNES|NES|GBA|GBC)\)') {
+  if ($baseName -match '\((?<tag>DS|3DS|PS1|PS2|PSP|WII|SWITCH|ANDROID|GC|N64|SNES|NES|GBA|GBC)\)') {
     switch ($matches.tag.ToUpperInvariant()) {
       'DS' { return 'nds' }
       '3DS' { return 'n3ds' }
@@ -86,6 +88,7 @@ function Resolve-SystemFromBracket([string]$baseName) {
       'PSP' { return 'psp' }
       'WII' { return 'wii' }
       'SWITCH' { return 'switch' }
+      'ANDROID' { return 'androidgames' }
       'GC' { return 'gc' }
       'N64' { return 'n64' }
       'SNES' { return 'snes' }
@@ -406,6 +409,7 @@ $directFolderMap = @{
   'saturn' = 'saturn'
   'steam' = 'steam'
   'switch' = 'switch'
+  'androidgames' = 'androidgames'
 }
 
 foreach ($folder in $directFolderMap.Keys) {

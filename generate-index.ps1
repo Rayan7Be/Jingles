@@ -79,7 +79,9 @@ function Get-DisplayName([string]$baseName) {
     $displayOverrides = @{
     'arc-raiders' = 'ARC Raiders'
       'airride' = 'Kirby Air Ride'
+      'animal-crossing-gc' = 'Animal Crossing'
       'alliance-alive-the' = 'The Alliance Alive'
+      'banjo-kazooie' = 'Banjo-Kazooie'
       'battlefield1' = 'Battlefield 1'
       'battlefield1-(1)' = 'Battlefield 1'
       'blackknight' = 'Sonic and the Black Knight'
@@ -97,6 +99,7 @@ function Get-DisplayName([string]$baseName) {
     'ffvi' = 'Final Fantasy VI'
     'ffviadvance' = 'Final Fantasy VI Advance'
     'ffx' = 'Final Fantasy X'
+    'gta-chinatown' = 'Grand Theft Auto: Chinatown Wars'
     'f-zero-climax' = 'F-Zero Climax'
     'f-zero-gp-legends' = 'F-Zero GP Legend'
     'f-zero-maximum-velocity' = 'F-Zero: Maximum Velocity'
@@ -117,13 +120,17 @@ function Get-DisplayName([string]$baseName) {
       'minecraftjavaedition' = 'Minecraft Java Edition'
       'mp6' = 'Mario Party 6'
     'munchables-the' = 'The Munchables'
+    'mario-and-luigi-brothership' = 'Mario & Luigi: Brothership'
     'parappa' = 'PaRappa the Rapper'
     'parappa2' = 'PaRappa the Rapper 2'
     'pikmin2' = 'Pikmin 2'
     'pokemon-bdsp' = 'Pokemon Brilliant Diamond / Shining Pearl'
     'pokemon-bw' = 'Pokemon Black / White'
     'pokemon-dp' = 'Pokemon Diamond / Pearl'
+      'pokemon-diamond-pearl-platinum-dialga' = 'Pokemon Diamond / Pearl / Platinum (Dialga)'
+      'pokemon-firered-leafgreen' = 'Pokemon FireRed / LeafGreen'
       'pokemon-hgss' = 'Pokemon HeartGold / SoulSilver'
+      'pokemon-pinball-ruby-sapphire' = 'Pokemon Pinball: Ruby & Sapphire'
       'pacmanchampionshipdx' = 'Pac-Man Championship Edition DX'
       'pacmanforever' = 'Pac-Man Forever'
       'powertennis' = 'Mario Power Tennis'
@@ -151,6 +158,9 @@ function Get-DisplayName([string]$baseName) {
       'tearsofthekingdom' = 'Tears of the Kingdom'
       'supermariogalaxy' = 'Super Mario Galaxy'
       'supermarioworld' = 'Super Mario World'
+      'the-legend-of-zelda-skyward-sword' = 'The Legend of Zelda: Skyward Sword'
+      'the-legend-of-zelda-the-minish-cap' = 'The Legend of Zelda: The Minish Cap'
+      'the-legend-of-zelda-the-wind-waker' = 'The Legend of Zelda: The Wind Waker'
       'tetris-effect' = 'Tetris Effect'
       'the-finals' = 'THE FINALS'
       'toree' = 'TOREE'
@@ -158,6 +168,7 @@ function Get-DisplayName([string]$baseName) {
       'vividlope' = 'VIVIDLOPE'
       'welcome-to-osu-1' = 'Welcome to osu!'
       'wario-land-the-shake-dimension' = 'Wario Land: The Shake Dimension'
+      'yoshi-(gba)' = 'Yoshi Topsy-Turvy'
       'yoshis-woolly-world' = "Yoshi's Woolly World"
     'zelda-twillight-princess' = 'The Legend of Zelda: Twilight Princess'
     'zombiu' = 'ZombiU'
@@ -211,6 +222,7 @@ function Get-SystemLabel([string]$system) {
     'psv' = 'PS Vita'
     'xbox360' = 'Xbox 360'
     'steam' = 'Steam'
+    'androidgames' = 'Android Games'
     'pc98' = 'PC-98'
     'ngpc' = 'NGPC'
     'cdi' = 'CD-i'
@@ -280,7 +292,7 @@ function Get-SplitEntries($entry) {
   })
 }
 
-$systems = @('gb','nes','snes','n64','gbc','gba','gc','nds','wii','n3ds','wiiu','switch','megadrive','segacd','saturn','dreamcast','psx','ps2','psp','psv','xbox360','steam','pc98','ngpc','cdi','msx')
+$systems = @('gb','nes','snes','n64','gbc','gba','gc','nds','wii','n3ds','wiiu','switch','megadrive','segacd','saturn','dreamcast','psx','ps2','psp','psv','xbox360','steam','androidgames','pc98','ngpc','cdi','msx')
 $entries = New-Object System.Collections.Generic.List[object]
 
 foreach ($system in $systems) {
