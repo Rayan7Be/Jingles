@@ -3666,7 +3666,7 @@
                {
                    "name":  "Super Monkey Ball (GC)",
                    "file":  "jingles/gc/Super Monkey Ball.wav",
-                   "regex":  "^super[^a-z0-9]*monkey[^a-z0-9]*ball(?![^a-z0-9]*(?:(?:(?:2|ii)|3d)))$|^supermonkeyball$"
+                   "regex":  "^super[^a-z0-9]*monkey[^a-z0-9]*ball(?![^a-z0-9]*(?:(?:(?:2|ii)|3d|banana)))$|^supermonkeyball$"
                },
                {
                    "name":  "Super Smash Bros Melee",
@@ -4793,6 +4793,11 @@
                     "regex":  "^wario[^a-z0-9]*land[^a-z0-9]*the[^a-z0-9]*shake[^a-z0-9]*dimension$|^wario[^a-z0-9]*land[^a-z0-9]*shake[^a-z0-9]*dimension$|^wariolandtheshakedimension$|^wlsd$"
                 },
                 {
+                    "name":  "Wii Sports Intro Music (HD)",
+                    "file":  "jingles/wii/Wii Sports Intro Music (HD).mp3",
+                    "regex":  "^wii[^a-z0-9]*sports[^a-z0-9]*intro[^a-z0-9]*music[^a-z0-9]*hd$|^wiisportsintromusichd$|^wsimh$"
+                },
+                {
                     "name":  "Xenoblade Chronicles (Wii)",
                     "file":  "jingles/wii/Xenoblade Chronicles.mp3",
                     "regex":  "^xenoblade[^a-z0-9]*chronicles(?![^a-z0-9]*(?:(?:(?:2|ii)|(?:3|iii)|(?:x|10|ten))))$|^xenobladechronicles$"
@@ -5283,6 +5288,11 @@
                      "name":  "Metroid Samus Returns",
                      "file":  "jingles/n3ds/metroid-samus-returns.wav",
                      "regex":  "^metroid[^a-z0-9]*samus[^a-z0-9]*returns$|^metroidsamusreturns$|^msr$"
+                 },
+                 {
+                     "name":  "Mii Maker",
+                     "file":  "jingles/n3ds/Mii Maker.wav",
+                     "regex":  "^mii[^a-z0-9]*maker$|^miimaker$"
                  },
                  {
                      "name":  "Miitopia",
@@ -5782,6 +5792,11 @@
                      "regex":  "^mario[^a-z0-9]*kart[^a-z0-9]*(?:8|viii)(?![^a-z0-9]*(?:(?:deluxe)))$|^mariokart8$|^mk8$"
                  },
                  {
+                     "name":  "Mii Maker",
+                     "file":  "jingles/wiiu/Mii Maker.wav",
+                     "regex":  "^mii[^a-z0-9]*maker$|^miimaker$"
+                 },
+                 {
                      "name":  "Monster Hunter 3 Ultimate",
                      "file":  "jingles/wiiu/Monster Hunter 3 Ultimate.mp3",
                      "regex":  "^monster[^a-z0-9]*hunter[^a-z0-9]*(?:3|iii)[^a-z0-9]*ultimate$|^monsterhunter3ultimate$|^mh3u$"
@@ -5944,6 +5959,11 @@
              ],
     "switch":  [
                    {
+                       "name":  "13 Sentinels Aegis Rim",
+                       "file":  "jingles/switch/13 Sentinels Aegis Rim.wav",
+                       "regex":  "^13[^a-z0-9]*sentinels[^a-z0-9]*aegis[^a-z0-9]*rim$|^13sentinelsaegisrim$|^13sar$"
+                   },
+                   {
                        "name":  "51 World Wide Games",
                        "file":  "jingles/switch/51 World Wide Games.wav",
                        "regex":  "^51[^a-z0-9]*world[^a-z0-9]*wide[^a-z0-9]*games$|^51worldwidegames$|^51wwg$"
@@ -5997,6 +6017,11 @@
                        "name":  "Bayonetta (Switch)",
                        "file":  "jingles/switch/Bayonetta.wav",
                        "regex":  "^bayonetta(?![^a-z0-9]*(?:(?:(?:2|ii)|(?:3|iii))))$|^bayonetta$"
+                   },
+                   {
+                       "name":  "Brawlhalla",
+                       "file":  "jingles/switch/Brawlhalla.mp3",
+                       "regex":  "^brawlhalla$"
                    },
                    {
                        "name":  "Breath of the Wild",
@@ -6067,6 +6092,11 @@
                        "name":  "Fire Emblem Three Houses",
                        "file":  "jingles/switch/Fire Emblem Three Houses.mp3",
                        "regex":  "^fire[^a-z0-9]*emblem[^a-z0-9]*three[^a-z0-9]*houses$|^fireemblemthreehouses$"
+                   },
+                   {
+                       "name":  "Fortnite",
+                       "file":  "jingles/switch/Fortnite.wav",
+                       "regex":  "^fortnite$"
                    },
                    {
                        "name":  "Game Builder Garage",
@@ -6234,6 +6264,11 @@
                        "regex":  "^octopath[^a-z0-9]*traveler(?![^a-z0-9]*(?:(?:(?:ii|2|two))))$|^octopathtraveler$"
                    },
                    {
+                       "name":  "Pac-Man Museum",
+                       "file":  "jingles/switch/Pac-Man Museum.mp3",
+                       "regex":  "^pac[^a-z0-9]*man[^a-z0-9]*museum$|^pacmanmuseum$"
+                   },
+                   {
                        "name":  "Paper Mario - Origami King",
                        "file":  "jingles/switch/Paper Mario - Origami King.wav",
                        "regex":  "^paper[^a-z0-9]*mario[^a-z0-9]*origami[^a-z0-9]*king$|^papermarioorigamiking$"
@@ -6394,6 +6429,16 @@
                        "regex":  "^super[^a-z0-9]*mario[^a-z0-9]*odyssey$|^supermarioodyssey$"
                    },
                    {
+                       "name":  "Super Monkey Ball Banana Blitz HD",
+                       "file":  "jingles/switch/Super Monkey Ball Banana Blitz HD.mp3",
+                       "regex":  "^super[^a-z0-9]*monkey[^a-z0-9]*ball[^a-z0-9]*banana[^a-z0-9]*blitz[^a-z0-9]*hd$|^supermonkeyballbananablitzhd$|^mbbbh$"
+                   },
+                   {
+                       "name":  "Super Monkey Ball Banana Mania",
+                       "file":  "jingles/switch/Super Monkey Ball Banana Mania.mp3",
+                       "regex":  "^super[^a-z0-9]*monkey[^a-z0-9]*ball[^a-z0-9]*banana[^a-z0-9]*mania$|^supermonkeyballbananamania$|^mbbm$"
+                   },
+                   {
                        "name":  "Tears of the Kingdom",
                        "file":  "jingles/switch/Tears of the Kingdom.wav",
                        "regex":  "^tears[^a-z0-9]*of[^a-z0-9]*the[^a-z0-9]*kingdom$|^tears[^a-z0-9]*kingdom$|^tearsofthekingdom$"
@@ -6462,6 +6507,11 @@
                        "name":  "Xenoblade Chronicles (Switch)",
                        "file":  "jingles/switch/Xenoblade Chronicles.wav",
                        "regex":  "^xenoblade[^a-z0-9]*chronicles(?![^a-z0-9]*(?:(?:(?:2|ii)|(?:3|iii)|(?:x|10|ten))))$|^xenobladechronicles$"
+                   },
+                   {
+                       "name":  "You Tube",
+                       "file":  "jingles/switch/YouTube.mp3",
+                       "regex":  "^youtube$"
                    },
                    {
                        "name":  "Zelda Breath of the Wild",
@@ -9162,6 +9212,11 @@
                       "name":  "Bomb Rush Cyberfunk",
                       "file":  "jingles/steam/bombrushcyberfunk.mp3",
                       "regex":  "^bombrushcyberfunk$"
+                  },
+                  {
+                      "name":  "Brawlhalla",
+                      "file":  "jingles/steam/Brawlhalla.mp3",
+                      "regex":  "^brawlhalla$"
                   },
                   {
                       "name":  "Call of Duty: Modern Warfare (2019)",
