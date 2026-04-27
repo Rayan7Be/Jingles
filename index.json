@@ -6899,6 +6899,11 @@
                        "regex":  "^celeste$"
                    },
                    {
+                       "name":  "CTGP Deluxe",
+                       "file":  "jingles/switch/CTGP Deluxe.mp3",
+                       "regex":  "^ctgp[^a-z0-9]*deluxe$|^ctgpdeluxe$"
+                   },
+                   {
                        "name":  "Cuphead",
                        "file":  "jingles/switch/Cuphead.wav",
                        "regex":  "^cuphead$"
