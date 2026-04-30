@@ -18,7 +18,7 @@ After that, you can individually choose which jingle you want per game.
 - GBC (**99**)
 - GBA (**163**)
 - NES (**189**)
-- SNES (**182**)
+- SNES (**183**)
 - N64 (**48**)
 - GC (**175**)
 - DS (**154**)

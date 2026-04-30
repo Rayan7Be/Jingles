@@ -54,7 +54,7 @@
                {
                    "name":  "Zelda Link\u0027s Awakening (GB)",
                    "file":  "jingles/gb/Zelda Link\u0027s Awakening.mp3",
-                   "regex":  "^zelda[^a-z0-9]*link\u0027s[^a-z0-9]*awakening(?![^a-z0-9]*(?:(?:switch)))$|^zeldalink\u0027sawakening$"
+                   "regex":  "^zelda[^a-z0-9]*link\u0027s[^a-z0-9]*awakening(?![^a-z0-9]*(?:(?:switch)))$|^zeldalink\u0027sawakening$|^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*link\u0027?s[^a-z0-9]*awakening$|^link\u0027?s[^a-z0-9]*awakening$"
                }
            ],
     "nes":  [
@@ -2312,7 +2312,7 @@
                 {
                     "name":  "Link\u0027s Awakening DX",
                     "file":  "jingles/gbc/Link\u0027s Awakening DX.ogg",
-                    "regex":  "^link\u0027s[^a-z0-9]*awakening[^a-z0-9]*dx$|^link\u0027sawakeningdx$|^lad$"
+                    "regex":  "^link\u0027s[^a-z0-9]*awakening[^a-z0-9]*dx$|^link\u0027sawakeningdx$|^lad$|^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*link\u0027?s[^a-z0-9]*awakening[^a-z0-9]*dx$"
                 },
                 {
                     "name":  "Mario Golf (GBC)",
@@ -3921,12 +3921,12 @@
                {
                    "name":  "Pokemon XD Gale of Darkness",
                    "file":  "jingles/gc/Pokemon XD Gale of Darkness.mp3",
-                   "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*xd[^a-z0-9]*gale[^a-z0-9]*of[^a-z0-9]*darkness$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*xd[^a-z0-9]*gale[^a-z0-9]*darkness$|^pokemonxdgaleofdarkness$|^xgd$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*xd[^a-z0-9]*gale[^a-z0-9]*of[^a-z0-9]*darkness(?:[^a-z0-9]*(?:version))?$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*xd[^a-z0-9]*gale[^a-z0-9]*darkness(?:[^a-z0-9]*(?:version))?$"
+                   "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*xd[^a-z0-9]*gale[^a-z0-9]*of[^a-z0-9]*darkness$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*xd[^a-z0-9]*gale[^a-z0-9]*darkness$|^pokemonxdgaleofdarkness$|^xgd$|^xdgod$|^pokemon[^a-z0-9]*xd[^a-z0-9]*god$|^xd[^a-z0-9]*gale[^a-z0-9]*of[^a-z0-9]*darkness$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*xd[^a-z0-9]*gale[^a-z0-9]*of[^a-z0-9]*darkness(?:[^a-z0-9]*(?:version))?$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*xd[^a-z0-9]*gale[^a-z0-9]*darkness(?:[^a-z0-9]*(?:version))?$"
                },
                {
                    "name":  "Pokemon XD Gale of Darkness",
                    "file":  "jingles/gc/Pokemon XD Gale of Darkness.ogg",
-                   "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*xd[^a-z0-9]*gale[^a-z0-9]*of[^a-z0-9]*darkness$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*xd[^a-z0-9]*gale[^a-z0-9]*darkness$|^pokemonxdgaleofdarkness$|^xgd$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*xd[^a-z0-9]*gale[^a-z0-9]*of[^a-z0-9]*darkness(?:[^a-z0-9]*(?:version))?$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*xd[^a-z0-9]*gale[^a-z0-9]*darkness(?:[^a-z0-9]*(?:version))?$"
+                   "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*xd[^a-z0-9]*gale[^a-z0-9]*of[^a-z0-9]*darkness$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*xd[^a-z0-9]*gale[^a-z0-9]*darkness$|^pokemonxdgaleofdarkness$|^xgd$|^xdgod$|^pokemon[^a-z0-9]*xd[^a-z0-9]*god$|^xd[^a-z0-9]*gale[^a-z0-9]*of[^a-z0-9]*darkness$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*xd[^a-z0-9]*gale[^a-z0-9]*of[^a-z0-9]*darkness(?:[^a-z0-9]*(?:version))?$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*xd[^a-z0-9]*gale[^a-z0-9]*darkness(?:[^a-z0-9]*(?:version))?$"
                },
                {
                    "name":  "Pokemon XD (GC)",
@@ -4216,7 +4216,7 @@
                {
                    "name":  "The Simpsons Road Rage",
                    "file":  "jingles/gc/The Simpsons Road Rage.mp3",
-                   "regex":  "^the[^a-z0-9]*simpsons[^a-z0-9]*road[^a-z0-9]*rage$|^simpsons[^a-z0-9]*road[^a-z0-9]*rage$|^thesimpsonsroadrage$|^srr$"
+                   "regex":  "^the[^a-z0-9]*simpsons[^a-z0-9]*road[^a-z0-9]*rage$|^simpsons[^a-z0-9]*road[^a-z0-9]*rage$|^thesimpsonsroadrage$|^srr$|^tsrr$"
                },
                {
                    "name":  "The Sims 2",
@@ -5124,6 +5124,36 @@
                     "name":  "Zoo Keeper",
                     "file":  "jingles/nds/Zoo Keeper.ogg",
                     "regex":  "^zoo[^a-z0-9]*keeper$|^zookeeper$"
+                },
+                {
+                    "name":  "Pokemon Black",
+                    "file":  "jingles/nds/pokemon-bw.ogg",
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*black$|^pokemonblack$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*black(?:[^a-z0-9]*(?:version))?$"
+                },
+                {
+                    "name":  "Pokemon White",
+                    "file":  "jingles/nds/pokemon-bw.ogg",
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*white$|^pokemonwhite$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*white(?:[^a-z0-9]*(?:version))?$"
+                },
+                {
+                    "name":  "Pokemon Diamond",
+                    "file":  "jingles/nds/pokemon-dp.ogg",
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*diamond$|^pokemondiamond$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*diamond(?:[^a-z0-9]*(?:version))?$"
+                },
+                {
+                    "name":  "Pokemon Pearl",
+                    "file":  "jingles/nds/pokemon-dp.ogg",
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*pearl$|^pokemonpearl$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*pearl(?:[^a-z0-9]*(?:version))?$"
+                },
+                {
+                    "name":  "Pokemon HeartGold",
+                    "file":  "jingles/nds/pokemon-hgss.ogg",
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*heartgold$|^pokemonheartgold$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*heartgold(?:[^a-z0-9]*(?:version))?$"
+                },
+                {
+                    "name":  "Pokemon SoulSilver",
+                    "file":  "jingles/nds/pokemon-hgss.ogg",
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*soulsilver$|^pokemonsoulsilver$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*soulsilver(?:[^a-z0-9]*(?:version))?$"
                 }
             ],
     "wii":  [
@@ -5345,12 +5375,12 @@
                 {
                     "name":  "New Super Mario Bros. Wii (Wii)",
                     "file":  "jingles/wii/New Super Mario Bros Wii.ogg",
-                    "regex":  "^new[^a-z0-9]*super[^a-z0-9]*mario[^a-z0-9]*(?:bros|brothers)[^a-z0-9]*wii(?![^a-z0-9]*(?:(?:alt)))$|^newsupermariobroswii$"
+                    "regex":  "^new[^a-z0-9]*super[^a-z0-9]*mario[^a-z0-9]*(?:bros|brothers)[^a-z0-9]*wii(?![^a-z0-9]*(?:(?:alt)))$|^newsupermariobroswii$|^nsmbw$"
                 },
                 {
                     "name":  "New Super Mario Bros. Wii (Wii)",
                     "file":  "jingles/wii/new-super-mario-bros-wii.ogg",
-                    "regex":  "^new[^a-z0-9]*super[^a-z0-9]*mario[^a-z0-9]*(?:bros|brothers)[^a-z0-9]*wii(?![^a-z0-9]*(?:(?:alt)))$|^newsupermariobroswii$"
+                    "regex":  "^new[^a-z0-9]*super[^a-z0-9]*mario[^a-z0-9]*(?:bros|brothers)[^a-z0-9]*wii(?![^a-z0-9]*(?:(?:alt)))$|^newsupermariobroswii$|^nsmbw$"
                 },
                 {
                     "name":  "Nights Journey of Dreams",
@@ -6052,7 +6082,7 @@
                  {
                      "name":  "Luigis Mansion Dark Moon",
                      "file":  "jingles/n3ds/luigis-mansion-dark-moon.ogg",
-                     "regex":  "^luigis[^a-z0-9]*mansion[^a-z0-9]*dark[^a-z0-9]*moon$|^luigismansiondarkmoon$|^lmdm$"
+                     "regex":  "^luigis[^a-z0-9]*mansion[^a-z0-9]*dark[^a-z0-9]*moon$|^luigismansiondarkmoon$|^lmdm$|^luigi\u0027?s[^a-z0-9]*mansion[^a-z0-9]*(?:2|ii)$|^luigi[^a-z0-9]*mansion[^a-z0-9]*(?:2|ii)$|^lm2$|^luigi\u0027?s[^a-z0-9]*mansion[^a-z0-9]*dark[^a-z0-9]*moon$"
                  },
                  {
                      "name":  "Mario and Luigi Bowser\u0027s Inside Story + Bowser Jr\u0027s Journey",
@@ -7341,12 +7371,12 @@
                    {
                        "name":  "Mario \u0026 Luigi: Brothership",
                        "file":  "jingles/switch/Mario and Luigi - Brothership.mp3",
-                       "regex":  "^mario[^a-z0-9]*(?:and|\u0026|n)[^a-z0-9]*luigi[^a-z0-9]*brothership$|^marioandluigibrothership$|^alb$"
+                       "regex":  "^mario[^a-z0-9]*(?:and|\u0026|n)[^a-z0-9]*luigi[^a-z0-9]*brothership$|^marioandluigibrothership$|^alb$|^mlb$|^m[^a-z0-9]*l[^a-z0-9]*b$|^m[^a-z0-9]*(?:and|\u0026|n)?[^a-z0-9]*l[^a-z0-9]*brothership$"
                    },
                    {
                        "name":  "Mario \u0026 Luigi: Brothership",
                        "file":  "jingles/switch/Mario and Luigi Brothership.ogg",
-                       "regex":  "^mario[^a-z0-9]*(?:and|\u0026|n)[^a-z0-9]*luigi[^a-z0-9]*brothership$|^marioandluigibrothership$|^alb$"
+                       "regex":  "^mario[^a-z0-9]*(?:and|\u0026|n)[^a-z0-9]*luigi[^a-z0-9]*brothership$|^marioandluigibrothership$|^alb$|^mlb$|^m[^a-z0-9]*l[^a-z0-9]*b$|^m[^a-z0-9]*(?:and|\u0026|n)?[^a-z0-9]*l[^a-z0-9]*brothership$"
                    },
                    {
                        "name":  "Mario Kart 8 Deluxe",
@@ -7911,7 +7941,17 @@
                    {
                        "name":  "Zelda Link\u0027s Awakening Switch",
                        "file":  "jingles/switch/Zelda Link\u0027s Awakening Switch.mp3",
-                       "regex":  "^zelda[^a-z0-9]*link\u0027s[^a-z0-9]*awakening[^a-z0-9]*switch$|^zeldalink\u0027sawakeningswitch$|^las$"
+                       "regex":  "^zelda[^a-z0-9]*link\u0027s[^a-z0-9]*awakening[^a-z0-9]*switch$|^zeldalink\u0027sawakeningswitch$|^las$|^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*link\u0027?s[^a-z0-9]*awakening[^a-z0-9]*(?:switch|remake)$|^link\u0027?s[^a-z0-9]*awakening[^a-z0-9]*(?:switch|remake)$"
+                   },
+                   {
+                       "name":  "Pokemon Brilliant Diamond",
+                       "file":  "jingles/switch/pokemon-bdsp.ogg",
+                       "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*brilliant[^a-z0-9]*diamond$|^pokemonbrilliantdiamond$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*brilliant[^a-z0-9]*diamond(?:[^a-z0-9]*(?:version))?$"
+                   },
+                   {
+                       "name":  "Pokemon Shining Pearl",
+                       "file":  "jingles/switch/pokemon-bdsp.ogg",
+                       "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*shining[^a-z0-9]*pearl$|^pokemonshiningpearl$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*shining[^a-z0-9]*pearl(?:[^a-z0-9]*(?:version))?$"
                    }
                ],
     "megadrive":  [

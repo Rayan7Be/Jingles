@@ -234,6 +234,14 @@ function Get-SystemLabel([string]$system) {
 
 function Get-Aliases([string]$normalizedName) {
   $aliases = @{
+    'mario and luigi brothership' = @('^mlb$|^m[^a-z0-9]*l[^a-z0-9]*b$|^m[^a-z0-9]*(?:and|&|n)?[^a-z0-9]*l[^a-z0-9]*brothership$')
+    'pokemon xd gale darkness' = @('^xdgod$|^pokemon[^a-z0-9]*xd[^a-z0-9]*god$|^xd[^a-z0-9]*gale[^a-z0-9]*of[^a-z0-9]*darkness$')
+    'luigis mansion dark moon' = @('^luigi''?s[^a-z0-9]*mansion[^a-z0-9]*(?:2|ii)$|^luigi[^a-z0-9]*mansion[^a-z0-9]*(?:2|ii)$|^lm2$|^luigi''?s[^a-z0-9]*mansion[^a-z0-9]*dark[^a-z0-9]*moon$')
+    'new super mario bros wii' = @('^nsmbw$')
+    'simpsons road rage' = @('^tsrr$')
+    'zelda link''s awakening' = @('^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*link''?s[^a-z0-9]*awakening$|^link''?s[^a-z0-9]*awakening$')
+    'link''s awakening dx' = @('^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*link''?s[^a-z0-9]*awakening[^a-z0-9]*dx$')
+    'zelda link''s awakening switch' = @('^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*link''?s[^a-z0-9]*awakening[^a-z0-9]*(?:switch|remake)$|^link''?s[^a-z0-9]*awakening[^a-z0-9]*(?:switch|remake)$')
     'tomodachi life' = @('^tomodachi[^a-z0-9]*life(?![^a-z0-9]*(?:living|livin|live|dream))$')
     'tomodachi life living the dream' = @(
       '^tomodachi[^a-z0-9]*life[^a-z0-9]*(?:living|livin|live)[^a-z0-9]*(?:the[^a-z0-9]*)?dream$',
@@ -268,15 +276,16 @@ function Get-Aliases([string]$normalizedName) {
 
 function Get-SplitEntries($entry) {
   $splitMap = @{
-    'jingles/nds/pokemon-bw.wav' = @('Pokemon Black', 'Pokemon White')
-    'jingles/nds/pokemon-dp.wav' = @('Pokemon Diamond', 'Pokemon Pearl')
-    'jingles/nds/pokemon-hgss.wav' = @('Pokemon HeartGold', 'Pokemon SoulSilver')
-    'jingles/switch/pokemon-bdsp.wav' = @('Pokemon Brilliant Diamond', 'Pokemon Shining Pearl')
+    'nds/pokemon-bw' = @('Pokemon Black', 'Pokemon White')
+    'nds/pokemon-dp' = @('Pokemon Diamond', 'Pokemon Pearl')
+    'nds/pokemon-hgss' = @('Pokemon HeartGold', 'Pokemon SoulSilver')
+    'switch/pokemon-bdsp' = @('Pokemon Brilliant Diamond', 'Pokemon Shining Pearl')
   }
 
-  if (-not $splitMap.ContainsKey($entry.File)) { return @() }
+  $splitKey = '{0}/{1}' -f $entry.System, $entry.RawBase.ToLowerInvariant()
+  if (-not $splitMap.ContainsKey($splitKey)) { return @() }
 
-  return @($splitMap[$entry.File] | ForEach-Object {
+  return @($splitMap[$splitKey] | ForEach-Object {
     $splitTokens = Get-Tokens $_
     $splitSignificant = Get-SignificantTokens $splitTokens
     if (-not $splitSignificant.Count) { $splitSignificant = $splitTokens }
