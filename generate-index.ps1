@@ -39,7 +39,11 @@ function Normalize-Token([string]$token) {
         }
         if ($romanNum) { return '(?:' + [regex]::Escape($t) + '|' + $romanNum + ')' }
       }
-      return [regex]::Escape($t)
+      $escaped = [regex]::Escape($t)
+      # Make apostrophes punctuation-insensitive so "Luigi's", "Luigis", and
+      # similar user-entered variants still match the same title.
+      $escaped = $escaped -replace "'", "[^a-z0-9]*"
+      return $escaped
     }
   }
 }
