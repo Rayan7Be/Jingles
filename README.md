@@ -2,7 +2,7 @@
 
 The Ultimate Video Game Jingle Repo for Cocoon.
 
-This repository currently contains **2,555 jingles** and started as a large Nintendo-focused collection before expanding into a full multi-platform library.
+This repository currently contains **2,712 jingles** and started as a large Nintendo-focused collection before expanding into a full multi-platform library.
 
 Nintendo is still the core of the repo, but `v2.0` adds a massive batch of new jingles from Sega, PlayStation, Dreamcast, Saturn, Steam, and several smaller niche platforms as well.
 
@@ -16,28 +16,28 @@ After that, you can individually choose which jingle you want per game.
 
 - GB (**11**)
 - GBC (**99**)
-- GBA (**163**)
+- GBA (**177**)
 - NES (**189**)
-- SNES (**183**)
-- N64 (**48**)
-- GC (**175**)
-- DS (**154**)
-- 3DS (**211**)
-- Wii (**92**)
-- Wii U (**72**)
-- Switch (**181**)
-- Mega Drive (**160**)
+- SNES (**184**)
+- N64 (**49**)
+- GC (**182**)
+- DS (**161**)
+- 3DS (**227**)
+- Wii (**99**)
+- Wii U (**75**)
+- Switch (**197**)
+- Mega Drive (**163**)
 - Sega CD (**5**)
 - Saturn (**25**)
-- Dreamcast (**22**)
-- PS1 (**142**)
-- PS2 (**168**)
-- PSP (**76**)
-- PS Vita (**16**)
-- Steam (**278**)
-- Android Apps (**5**)
-- Android Games (**58**)
-- Xbox 360 (**11**)
+- Dreamcast (**24**)
+- PS1 (**156**)
+- PS2 (**183**)
+- PSP (**95**)
+- PS Vita (**18**)
+- Steam (**297**)
+- Android Apps (**7**)
+- Android Games (**59**)
+- Xbox 360 (**19**)
 - PC-98 (**5**)
 - MSX (**2**)
 - NGPC (**3**)

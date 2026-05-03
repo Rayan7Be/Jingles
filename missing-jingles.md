@@ -11,7 +11,6 @@ These are grouped by suggested placement, not every possible native release. Som
 - Diablo II
 - Diablo III
 - Diablo IV
-- Dispatch
 - Dome Keeper
 - Gang Beasts
 - Golf With Your Friends
@@ -26,17 +25,11 @@ These are grouped by suggested placement, not every possible native release. Som
 - Left 4 Dead 2
 - Old School RuneScape
 
-## Android Apps
-
-- Netflix
-- Disney+
-
 ## Android Games
 
 - Monument Valley
 - Monument Valley 2
 - Monument Valley 3
-- Plants vs. Zombies
 - Adventure Time: Magic Man's Head Games
 - Adventure Time: Card Wars Kingdom
 - Adventure Time: Champions and Challengers
@@ -50,31 +43,6 @@ These are grouped by suggested placement, not every possible native release. Som
 - Pokemon Typing Adventure
 - Pokemon Mystery Dungeon: Explorers of Time
 - Pokemon Mystery Dungeon: Explorers of Darkness
-- Mario Party DS
-
-## 3DS
-
-- Adventure Time: Hey Ice King! Why'd You Steal Our Garbage?!
-- Adventure Time: Explore the Dungeon Because I DON'T KNOW!
-- Adventure Time: The Secret of the Nameless Kingdom
-- Adventure Time: Finn and Jake Investigations
-- Lego Batman 2: DC Super Heroes
-- Lego Batman 3: Beyond Gotham
-
-## Wii
-
-- Link's Crossbow Training
-
-## Switch
-
-- Pokemon Let's Go, Pikachu!
-- Pokemon Let's Go, Eevee!
-- Adventure Time: Pirates of the Enchiridion
-- Mario + Rabbids Kingdom Battle
-
-## PSP
-
-- Silent Hill: Origins
 
 ## Variant Notes
 
