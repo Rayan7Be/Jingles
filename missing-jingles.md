@@ -25,6 +25,21 @@ These are grouped by suggested placement, not every possible native release. Som
 - Left 4 Dead 2
 - Old School RuneScape
 
+## N64
+
+- Mario Party
+- Mario Party 2
+- Mario Party 3
+- Pokemon Stadium 2
+- Perfect Dark
+- 1080 Snowboarding
+
+## GC
+
+- Mario Party 7
+- Donkey Konga
+- Donkey Konga 2
+
 ## Android Games
 
 - Monument Valley
@@ -33,6 +48,15 @@ These are grouped by suggested placement, not every possible native release. Som
 - Adventure Time: Magic Man's Head Games
 - Adventure Time: Card Wars Kingdom
 - Adventure Time: Champions and Challengers
+- Temple Run
+- Temple Run 2
+- Clash of Clans
+- Clash Royale
+- Jetpack Joyride
+
+## GBA
+
+- Mario Tennis Power Tour
 
 ## DS
 
@@ -43,6 +67,29 @@ These are grouped by suggested placement, not every possible native release. Som
 - Pokemon Typing Adventure
 - Pokemon Mystery Dungeon: Explorers of Time
 - Pokemon Mystery Dungeon: Explorers of Darkness
+- Mario Hoops 3-on-3
+- Fossil Fighters
+- Fossil Fighters Champions
+- Dragon Quest VI
+
+## PSP
+
+- Tekken: Dark Resurrection
+- Dissidia Final Fantasy
+- Phantasy Star Portable
+- Star Ocean: First Departure
+- Star Ocean: Second Evolution
+
+## PS2
+
+- Dragon Ball Z: Budokai Tenkaichi 3
+- Guitar Hero II
+- Need for Speed: Underground 2
+
+## PS1
+
+- Gran Turismo 2
+- Tony Hawk's Pro Skater 2
 
 ## Variant Notes
 
