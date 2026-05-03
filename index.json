@@ -1181,6 +1181,11 @@
                      "regex":  "^dragon[^a-z0-9]*quest[^a-z0-9]*(?:vi|6|six)$|^dragonquestvi$"
                  },
                  {
+                     "name":  "EarthBound Alt",
+                     "file":  "jingles/snes/EarthBound Alt.ogg",
+                     "regex":  "^earthbound[^a-z0-9]*alt$|^earthboundalt$"
+                 },
+                 {
                      "name":  "Earthbound Halloween Hack",
                      "file":  "jingles/snes/Earthbound Halloween Hack.mp3",
                      "regex":  "^earthbound[^a-z0-9]*halloween[^a-z0-9]*hack$|^earthboundhalloweenhack$|^ehh$"
@@ -1188,12 +1193,12 @@
                  {
                      "name":  "EARTHBOUND (SNES)",
                      "file":  "jingles/snes/EARTHBOUND.mp3",
-                     "regex":  "^earthbound(?![^a-z0-9]*(?:(?:halloween)))$|^earthbound$"
+                     "regex":  "^earthbound(?![^a-z0-9]*(?:(?:alt|halloween)))$|^earthbound$"
                  },
                  {
                      "name":  "Earthbound (SNES)",
                      "file":  "jingles/snes/Earthbound.ogg",
-                     "regex":  "^earthbound(?![^a-z0-9]*(?:(?:halloween)))$|^earthbound$"
+                     "regex":  "^earthbound(?![^a-z0-9]*(?:(?:alt|halloween)))$|^earthbound$"
                  },
                  {
                      "name":  "Equinox",
@@ -1236,9 +1241,14 @@
                      "regex":  "^final[^a-z0-9]*fantasy[^a-z0-9]*(?:v|5|five)$|^finalfantasyv$"
                  },
                  {
-                     "name":  "Final Fantasy VI Alt",
+                     "name":  "Final Fantasy VI Alt 2",
+                     "file":  "jingles/snes/Final Fantasy VI Alt 2.ogg",
+                     "regex":  "^final[^a-z0-9]*fantasy[^a-z0-9]*(?:vi|6|six)[^a-z0-9]*alt[^a-z0-9]*(?:2|ii)$|^finalfantasyvialt2$|^va2$"
+                 },
+                 {
+                     "name":  "Final Fantasy VI Alt (SNES)",
                      "file":  "jingles/snes/Final Fantasy VI Alt.ogg",
-                     "regex":  "^final[^a-z0-9]*fantasy[^a-z0-9]*(?:vi|6|six)[^a-z0-9]*alt$|^finalfantasyvialt$"
+                     "regex":  "^final[^a-z0-9]*fantasy[^a-z0-9]*(?:vi|6|six)[^a-z0-9]*alt(?![^a-z0-9]*(?:(?:(?:2|ii))))$|^finalfantasyvialt$"
                  },
                  {
                      "name":  "Final Fantasy VI (SNES)",
@@ -1298,7 +1308,7 @@
                  {
                      "name":  "Harvest Moon (SNES)",
                      "file":  "jingles/snes/Harvest Moon.ogg",
-                     "regex":  "^harvest[^a-z0-9]*moon(?![^a-z0-9]*(?:(?:animal|ds|magical|skytree|tree)))$|^harvestmoon$"
+                     "regex":  "^harvest[^a-z0-9]*moon(?![^a-z0-9]*(?:(?:animal|ds|friends|magical|skytree|tree)))$|^harvestmoon$"
                  },
                  {
                      "name":  "Hook",
@@ -1353,7 +1363,7 @@
                  {
                      "name":  "Kirby Super Star (SNES)",
                      "file":  "jingles/snes/Kirby Super Star.ogg",
-                     "regex":  "^kirby[^a-z0-9]*super[^a-z0-9]*star(?![^a-z0-9]*(?:(?:alt)))$|^kirbysuperstar$"
+                     "regex":  "^kirby[^a-z0-9]*super[^a-z0-9]*star(?![^a-z0-9]*(?:(?:alt|ultra)))$|^kirbysuperstar$"
                  },
                  {
                      "name":  "Kirby\u0027s Avalanche",
@@ -1561,9 +1571,14 @@
                      "regex":  "^shin[^a-z0-9]*megami[^a-z0-9]*tensei(?![^a-z0-9]*(?:(?:(?:2|ii)|devil|digital|if|(?:iv|4|four)|nocturne|strange|(?:v|5|five))))$|^shinmegamitensei$|^smt$"
                  },
                  {
+                     "name":  "Sim City Alt",
+                     "file":  "jingles/snes/Sim City Alt.ogg",
+                     "regex":  "^sim[^a-z0-9]*city[^a-z0-9]*alt$|^simcityalt$|^sca$"
+                 },
+                 {
                      "name":  "Sim City (SNES)",
                      "file":  "jingles/snes/Sim City.ogg",
-                     "regex":  "^sim[^a-z0-9]*city(?![^a-z0-9]*(?:(?:prototype)))$|^simcity$"
+                     "regex":  "^sim[^a-z0-9]*city(?![^a-z0-9]*(?:(?:alt|prototype)))$|^simcity$"
                  },
                  {
                      "name":  "Skyblazer",
@@ -1751,9 +1766,14 @@
                      "regex":  "^super[^a-z0-9]*mario[^a-z0-9]*rpg(?![^a-z0-9]*(?:(?:alt|snes)))$|^supermariorpg$"
                  },
                  {
-                     "name":  "Super Mario World 2 - Yoshi\u0027s Island Alt",
+                     "name":  "Super Mario World 2 - Yoshi\u0027s Island Alt 2",
+                     "file":  "jingles/snes/Super Mario World 2 - Yoshi\u0027s Island Alt 2.ogg",
+                     "regex":  "^super[^a-z0-9]*mario[^a-z0-9]*world[^a-z0-9]*(?:2|ii)[^a-z0-9]*yoshi[^a-z0-9]*s[^a-z0-9]*island[^a-z0-9]*alt[^a-z0-9]*(?:2|ii)$|^w2yia2$"
+                 },
+                 {
+                     "name":  "Super Mario World 2 - Yoshi\u0027s Island Alt (SNES)",
                      "file":  "jingles/snes/Super Mario World 2 - Yoshi\u0027s Island Alt.ogg",
-                     "regex":  "^super[^a-z0-9]*mario[^a-z0-9]*world[^a-z0-9]*(?:2|ii)[^a-z0-9]*yoshi[^a-z0-9]*s[^a-z0-9]*island[^a-z0-9]*alt$|^w2yia$"
+                     "regex":  "^super[^a-z0-9]*mario[^a-z0-9]*world[^a-z0-9]*(?:2|ii)[^a-z0-9]*yoshi[^a-z0-9]*s[^a-z0-9]*island[^a-z0-9]*alt(?![^a-z0-9]*(?:(?:(?:2|ii))))$|^w2yia$"
                  },
                  {
                      "name":  "Super Mario World 2 - Yoshi\u0027s Island (SNES)",
@@ -1889,6 +1909,11 @@
                      "name":  "Top Gear (SNES)",
                      "file":  "jingles/snes/Top Gear.ogg",
                      "regex":  "^top[^a-z0-9]*gear(?![^a-z0-9]*(?:(?:(?:2|ii))))$|^topgear$"
+                 },
+                 {
+                     "name":  "Trials of Mana Alt",
+                     "file":  "jingles/snes/Trials of Mana Alt.ogg",
+                     "regex":  "^trials[^a-z0-9]*of[^a-z0-9]*mana[^a-z0-9]*alt$|^trials[^a-z0-9]*mana[^a-z0-9]*alt$|^trialsofmanaalt$|^tma$"
                  },
                  {
                      "name":  "Ultimate Mortal Kombat 3",
@@ -2248,6 +2273,11 @@
                     "name":  "Dragon Quest Monsters (GBC)",
                     "file":  "jingles/gbc/Dragon Quest Monsters.ogg",
                     "regex":  "^dragon[^a-z0-9]*quest[^a-z0-9]*monsters(?![^a-z0-9]*(?:(?:(?:2|ii)|dark|joker|terry)))$|^dragonquestmonsters$"
+                },
+                {
+                    "name":  "Dragon Warrior I \u0026 II",
+                    "file":  "jingles/gbc/Dragon Warrior I \u0026 II.ogg",
+                    "regex":  "^dragon[^a-z0-9]*warrior[^a-z0-9]*(?:i|1|one)[^a-z0-9]*(?:and|\u0026|n)[^a-z0-9]*(?:ii|2|two)$|^dragonwarrioriandii$|^wiai$"
                 },
                 {
                     "name":  "F1 Race",
@@ -2620,19 +2650,34 @@
                     "regex":  "^tetris(?![^a-z0-9]*(?:(?:99|alt|attack|cd|ds|dx|effect|grand|ultimate|worlds)))$|^tetris$"
                 },
                 {
-                    "name":  "The Legend of Zelda - Link\u0027s Awakening DX",
+                    "name":  "The Legend of Zelda - Link\u0027s Awakening DX Alt",
+                    "file":  "jingles/gbc/The Legend of Zelda - Link\u0027s Awakening DX Alt.ogg",
+                    "regex":  "^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*link[^a-z0-9]*s[^a-z0-9]*awakening[^a-z0-9]*dx[^a-z0-9]*alt$|^legend[^a-z0-9]*zelda[^a-z0-9]*link[^a-z0-9]*s[^a-z0-9]*awakening[^a-z0-9]*dx[^a-z0-9]*alt$|^lada$"
+                },
+                {
+                    "name":  "The Legend of Zelda - Link\u0027s Awakening DX (GBC)",
                     "file":  "jingles/gbc/The Legend of Zelda - Link\u0027s Awakening DX.mp3",
-                    "regex":  "^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*link[^a-z0-9]*s[^a-z0-9]*awakening[^a-z0-9]*dx$|^legend[^a-z0-9]*zelda[^a-z0-9]*link[^a-z0-9]*s[^a-z0-9]*awakening[^a-z0-9]*dx$|^lad$"
+                    "regex":  "^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*link[^a-z0-9]*s[^a-z0-9]*awakening[^a-z0-9]*dx(?![^a-z0-9]*(?:(?:alt)))$|^legend[^a-z0-9]*zelda[^a-z0-9]*link[^a-z0-9]*s[^a-z0-9]*awakening[^a-z0-9]*dx(?![^a-z0-9]*(?:(?:alt)))$|^lad$"
                 },
                 {
-                    "name":  "The Legend of Zelda - Oracle of Ages",
+                    "name":  "The Legend of Zelda - Oracle of Ages Alt",
+                    "file":  "jingles/gbc/The Legend of Zelda - Oracle of Ages Alt.ogg",
+                    "regex":  "^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*oracle[^a-z0-9]*of[^a-z0-9]*ages[^a-z0-9]*alt$|^legend[^a-z0-9]*zelda[^a-z0-9]*oracle[^a-z0-9]*ages[^a-z0-9]*alt$|^oaa$"
+                },
+                {
+                    "name":  "The Legend of Zelda - Oracle of Ages (GBC)",
                     "file":  "jingles/gbc/The Legend of Zelda - Oracle of Ages.mp3",
-                    "regex":  "^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*oracle[^a-z0-9]*of[^a-z0-9]*ages$|^legend[^a-z0-9]*zelda[^a-z0-9]*oracle[^a-z0-9]*ages$|^thelegendofzeldaoracleofages$"
+                    "regex":  "^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*oracle[^a-z0-9]*of[^a-z0-9]*ages(?![^a-z0-9]*(?:(?:alt)))$|^legend[^a-z0-9]*zelda[^a-z0-9]*oracle[^a-z0-9]*ages(?![^a-z0-9]*(?:(?:alt)))$|^thelegendofzeldaoracleofages$"
                 },
                 {
-                    "name":  "The Legend of Zelda - Oracle of Seasons",
+                    "name":  "The Legend of Zelda - Oracle of Seasons Alt",
+                    "file":  "jingles/gbc/The Legend of Zelda - Oracle of Seasons Alt.ogg",
+                    "regex":  "^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*oracle[^a-z0-9]*of[^a-z0-9]*seasons[^a-z0-9]*alt$|^legend[^a-z0-9]*zelda[^a-z0-9]*oracle[^a-z0-9]*seasons[^a-z0-9]*alt$|^osa$"
+                },
+                {
+                    "name":  "The Legend of Zelda - Oracle of Seasons (GBC)",
                     "file":  "jingles/gbc/The Legend of Zelda - Oracle of Seasons.mp3",
-                    "regex":  "^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*oracle[^a-z0-9]*of[^a-z0-9]*seasons$|^legend[^a-z0-9]*zelda[^a-z0-9]*oracle[^a-z0-9]*seasons$"
+                    "regex":  "^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*oracle[^a-z0-9]*of[^a-z0-9]*seasons(?![^a-z0-9]*(?:(?:alt)))$|^legend[^a-z0-9]*zelda[^a-z0-9]*oracle[^a-z0-9]*seasons(?![^a-z0-9]*(?:(?:alt)))$"
                 },
                 {
                     "name":  "Toki Tori (GBC)",
@@ -2672,9 +2717,24 @@
             ],
     "gba":  [
                 {
-                    "name":  "Advance Wars 2",
+                    "name":  "Advance Wars 2 - Black Hole Rising Alt 2",
+                    "file":  "jingles/gba/Advance Wars 2 - Black Hole Rising Alt 2.ogg",
+                    "regex":  "^advance[^a-z0-9]*wars[^a-z0-9]*(?:2|ii)[^a-z0-9]*black[^a-z0-9]*hole[^a-z0-9]*rising[^a-z0-9]*alt[^a-z0-9]*(?:2|ii)$"
+                },
+                {
+                    "name":  "Advance Wars 2 - Black Hole Rising Alt (GBA)",
+                    "file":  "jingles/gba/Advance Wars 2 - Black Hole Rising Alt.ogg",
+                    "regex":  "^advance[^a-z0-9]*wars[^a-z0-9]*(?:2|ii)[^a-z0-9]*black[^a-z0-9]*hole[^a-z0-9]*rising[^a-z0-9]*alt(?![^a-z0-9]*(?:(?:(?:2|ii))))$"
+                },
+                {
+                    "name":  "Advance Wars 2 (GBA)",
                     "file":  "jingles/gba/Advance Wars 2.ogg",
-                    "regex":  "^advance[^a-z0-9]*wars[^a-z0-9]*(?:2|ii)$|^advancewars2$|^aw2$"
+                    "regex":  "^advance[^a-z0-9]*wars[^a-z0-9]*(?:2|ii)(?![^a-z0-9]*(?:(?:black)))$|^advancewars2$|^aw2$"
+                },
+                {
+                    "name":  "Advance Wars (GBA)",
+                    "file":  "jingles/gba/Advance Wars.ogg",
+                    "regex":  "^advance[^a-z0-9]*wars(?![^a-z0-9]*(?:(?:(?:1|i)|(?:2|ii))))$|^advancewars$"
                 },
                 {
                     "name":  "Apotris",
@@ -2752,9 +2812,14 @@
                     "regex":  "^dragon[^a-z0-9]*ball[^a-z0-9]*z[^a-z0-9]*supersonic[^a-z0-9]*warriors$|^bzsw$"
                 },
                 {
-                    "name":  "Drill Dozer",
+                    "name":  "Drill Dozer Alt",
+                    "file":  "jingles/gba/Drill Dozer Alt.ogg",
+                    "regex":  "^drill[^a-z0-9]*dozer[^a-z0-9]*alt$|^drilldozeralt$|^dda$"
+                },
+                {
+                    "name":  "Drill Dozer (GBA)",
                     "file":  "jingles/gba/Drill Dozer.ogg",
-                    "regex":  "^drill[^a-z0-9]*dozer$|^drilldozer$"
+                    "regex":  "^drill[^a-z0-9]*dozer(?![^a-z0-9]*(?:(?:alt)))$|^drilldozer$"
                 },
                 {
                     "name":  "Duel Masters Kaijudo Showdown",
@@ -2797,9 +2862,14 @@
                     "regex":  "^final[^a-z0-9]*fantasy[^a-z0-9]*(?:ii|2|two)(?![^a-z0-9]*(?:(?:20th|alt)))$|^finalfantasyii$"
                 },
                 {
-                    "name":  "Final Fantasy Tactics Advance",
+                    "name":  "Final Fantasy Tactics Advance Alt",
+                    "file":  "jingles/gba/Final Fantasy Tactics Advance Alt.ogg",
+                    "regex":  "^final[^a-z0-9]*fantasy[^a-z0-9]*tactics[^a-z0-9]*advance[^a-z0-9]*alt$|^taa$"
+                },
+                {
+                    "name":  "Final Fantasy Tactics Advance (GBA)",
                     "file":  "jingles/gba/Final Fantasy Tactics Advance.ogg",
-                    "regex":  "^final[^a-z0-9]*fantasy[^a-z0-9]*tactics[^a-z0-9]*advance$|^finalfantasytacticsadvance$"
+                    "regex":  "^final[^a-z0-9]*fantasy[^a-z0-9]*tactics[^a-z0-9]*advance(?![^a-z0-9]*(?:(?:alt)))$|^finalfantasytacticsadvance$"
                 },
                 {
                     "name":  "Final Fantasy VI (GBA)",
@@ -2842,19 +2912,29 @@
                     "regex":  "^f[^a-z0-9]*zero[^a-z0-9]*maximum[^a-z0-9]*velocity$|^fzeromaximumvelocity$|^fzmv$"
                 },
                 {
-                    "name":  "Golden Sun - The Lost Age",
+                    "name":  "Golden Sun - The Lost Age Alt",
+                    "file":  "jingles/gba/Golden Sun - The Lost Age Alt.ogg",
+                    "regex":  "^golden[^a-z0-9]*sun[^a-z0-9]*the[^a-z0-9]*lost[^a-z0-9]*age[^a-z0-9]*alt$|^golden[^a-z0-9]*sun[^a-z0-9]*lost[^a-z0-9]*age[^a-z0-9]*alt$|^goldensunthelostagealt$|^gslaa$"
+                },
+                {
+                    "name":  "Golden Sun - The Lost Age (GBA)",
                     "file":  "jingles/gba/Golden Sun - The Lost Age.ogg",
-                    "regex":  "^golden[^a-z0-9]*sun[^a-z0-9]*the[^a-z0-9]*lost[^a-z0-9]*age$|^golden[^a-z0-9]*sun[^a-z0-9]*lost[^a-z0-9]*age$|^goldensunthelostage$|^gsla$"
+                    "regex":  "^golden[^a-z0-9]*sun[^a-z0-9]*the[^a-z0-9]*lost[^a-z0-9]*age(?![^a-z0-9]*(?:(?:alt)))$|^golden[^a-z0-9]*sun[^a-z0-9]*lost[^a-z0-9]*age(?![^a-z0-9]*(?:(?:alt)))$|^goldensunthelostage$|^gsla$"
+                },
+                {
+                    "name":  "Golden Sun Alt",
+                    "file":  "jingles/gba/Golden Sun Alt.ogg",
+                    "regex":  "^golden[^a-z0-9]*sun[^a-z0-9]*alt$|^goldensunalt$|^gsa$"
                 },
                 {
                     "name":  "Golden Sun (GBA)",
                     "file":  "jingles/gba/Golden Sun.mp3",
-                    "regex":  "^golden[^a-z0-9]*sun(?![^a-z0-9]*(?:(?:lost)))$|^goldensun$"
+                    "regex":  "^golden[^a-z0-9]*sun(?![^a-z0-9]*(?:(?:alt|lost)))$|^goldensun$"
                 },
                 {
                     "name":  "Golden Sun (GBA)",
                     "file":  "jingles/gba/Golden Sun.ogg",
-                    "regex":  "^golden[^a-z0-9]*sun(?![^a-z0-9]*(?:(?:lost)))$|^goldensun$"
+                    "regex":  "^golden[^a-z0-9]*sun(?![^a-z0-9]*(?:(?:alt|lost)))$|^goldensun$"
                 },
                 {
                     "name":  "Goodboy Galaxy",
@@ -2882,6 +2962,11 @@
                     "regex":  "^hamtaro[^a-z0-9]*rainbow[^a-z0-9]*rescue$|^hamtarorainbowrescue$|^hrr$"
                 },
                 {
+                    "name":  "Harvest Moon - Friends of Mineral Town",
+                    "file":  "jingles/gba/Harvest Moon - Friends of Mineral Town.ogg",
+                    "regex":  "^harvest[^a-z0-9]*moon[^a-z0-9]*friends[^a-z0-9]*of[^a-z0-9]*mineral[^a-z0-9]*town$|^harvest[^a-z0-9]*moon[^a-z0-9]*friends[^a-z0-9]*mineral[^a-z0-9]*town$|^hmfmt$"
+                },
+                {
                     "name":  "Iridion II",
                     "file":  "jingles/gba/Iridion II.ogg",
                     "regex":  "^iridion[^a-z0-9]*(?:ii|2|two)$|^iridionii$"
@@ -2907,9 +2992,9 @@
                     "regex":  "^kingdom[^a-z0-9]*hearts[^a-z0-9]*chain[^a-z0-9]*of[^a-z0-9]*memories[^a-z0-9]*dearly[^a-z0-9]*beloved$|^kingdom[^a-z0-9]*hearts[^a-z0-9]*chain[^a-z0-9]*memories[^a-z0-9]*dearly[^a-z0-9]*beloved$|^khcmdb$"
                 },
                 {
-                    "name":  "Kirby - Nightmare in Dream Land",
+                    "name":  "Kirby - Nightmare in Dream Land (GBA)",
                     "file":  "jingles/gba/Kirby - Nightmare in Dream Land.mp3",
-                    "regex":  "^kirby[^a-z0-9]*nightmare[^a-z0-9]*in[^a-z0-9]*dream[^a-z0-9]*land$|^kirby[^a-z0-9]*nightmare[^a-z0-9]*dream[^a-z0-9]*land$|^kirbynightmareindreamland$|^ndl$"
+                    "regex":  "^kirby[^a-z0-9]*nightmare[^a-z0-9]*in[^a-z0-9]*dream[^a-z0-9]*land(?![^a-z0-9]*(?:(?:alt)))$|^kirby[^a-z0-9]*nightmare[^a-z0-9]*dream[^a-z0-9]*land(?![^a-z0-9]*(?:(?:alt)))$|^kirbynightmareindreamland$|^ndl$"
                 },
                 {
                     "name":  "Kirby and the Amazing Mirror Alt",
@@ -2922,9 +3007,14 @@
                     "regex":  "^kirby[^a-z0-9]*(?:and|\u0026|n)[^a-z0-9]*the[^a-z0-9]*amazing[^a-z0-9]*mirror(?![^a-z0-9]*(?:(?:alt)))$|^kirby[^a-z0-9]*(?:and|\u0026|n)[^a-z0-9]*amazing[^a-z0-9]*mirror(?![^a-z0-9]*(?:(?:alt)))$|^kirbyandtheamazingmirror$|^aam$"
                 },
                 {
-                    "name":  "Kirby Nightmare in Dream Land",
+                    "name":  "Kirby Nightmare in Dream Land Alt",
+                    "file":  "jingles/gba/Kirby Nightmare in Dream Land Alt.ogg",
+                    "regex":  "^kirby[^a-z0-9]*nightmare[^a-z0-9]*in[^a-z0-9]*dream[^a-z0-9]*land[^a-z0-9]*alt$|^kirby[^a-z0-9]*nightmare[^a-z0-9]*dream[^a-z0-9]*land[^a-z0-9]*alt$|^kirbynightmareindreamlandalt$|^ndla$"
+                },
+                {
+                    "name":  "Kirby Nightmare in Dream Land (GBA)",
                     "file":  "jingles/gba/Kirby Nightmare in Dream Land.ogg",
-                    "regex":  "^kirby[^a-z0-9]*nightmare[^a-z0-9]*in[^a-z0-9]*dream[^a-z0-9]*land$|^kirby[^a-z0-9]*nightmare[^a-z0-9]*dream[^a-z0-9]*land$|^kirbynightmareindreamland$|^ndl$"
+                    "regex":  "^kirby[^a-z0-9]*nightmare[^a-z0-9]*in[^a-z0-9]*dream[^a-z0-9]*land(?![^a-z0-9]*(?:(?:alt)))$|^kirby[^a-z0-9]*nightmare[^a-z0-9]*dream[^a-z0-9]*land(?![^a-z0-9]*(?:(?:alt)))$|^kirbynightmareindreamland$|^ndl$"
                 },
                 {
                     "name":  "Kirby Nightmare in Dreamland",
@@ -3077,14 +3167,19 @@
                     "regex":  "^mega[^a-z0-9]*man[^a-z0-9]*battle[^a-z0-9]*network[^a-z0-9]*(?:6|vi)$|^megamanbattlenetwork6$|^bn6$"
                 },
                 {
+                    "name":  "Mega Man Battle Network Alt",
+                    "file":  "jingles/gba/Mega Man Battle Network Alt.ogg",
+                    "regex":  "^mega[^a-z0-9]*man[^a-z0-9]*battle[^a-z0-9]*network[^a-z0-9]*alt$|^megamanbattlenetworkalt$|^bna$"
+                },
+                {
                     "name":  "Mega Man Battle Network (GBA)",
                     "file":  "jingles/gba/Mega Man Battle Network.mp3",
-                    "regex":  "^mega[^a-z0-9]*man[^a-z0-9]*battle[^a-z0-9]*network(?![^a-z0-9]*(?:(?:(?:2|ii)|(?:3|iii)|(?:4|iv)|(?:5|v)|(?:6|vi)|transmission)))$|^megamanbattlenetwork$"
+                    "regex":  "^mega[^a-z0-9]*man[^a-z0-9]*battle[^a-z0-9]*network(?![^a-z0-9]*(?:(?:(?:2|ii)|(?:3|iii)|(?:4|iv)|(?:5|v)|(?:6|vi)|alt|transmission)))$|^megamanbattlenetwork$"
                 },
                 {
                     "name":  "Mega Man Battle Network (GBA)",
                     "file":  "jingles/gba/Mega Man Battle Network.ogg",
-                    "regex":  "^mega[^a-z0-9]*man[^a-z0-9]*battle[^a-z0-9]*network(?![^a-z0-9]*(?:(?:(?:2|ii)|(?:3|iii)|(?:4|iv)|(?:5|v)|(?:6|vi)|transmission)))$|^megamanbattlenetwork$"
+                    "regex":  "^mega[^a-z0-9]*man[^a-z0-9]*battle[^a-z0-9]*network(?![^a-z0-9]*(?:(?:(?:2|ii)|(?:3|iii)|(?:4|iv)|(?:5|v)|(?:6|vi)|alt|transmission)))$|^megamanbattlenetwork$"
                 },
                 {
                     "name":  "Mega Man Zero 2",
@@ -3142,9 +3237,14 @@
                     "regex":  "^metroid[^a-z0-9]*spring[^a-z0-9]*break[^a-z0-9]*hack$|^metroidspringbreakhack$|^msbh$"
                 },
                 {
-                    "name":  "Metroid Fusion Alt",
+                    "name":  "Metroid Fusion Alt 2",
+                    "file":  "jingles/gba/Metroid Fusion Alt 2.ogg",
+                    "regex":  "^metroid[^a-z0-9]*fusion[^a-z0-9]*alt[^a-z0-9]*(?:2|ii)$|^metroidfusionalt2$|^mfa2$"
+                },
+                {
+                    "name":  "Metroid Fusion Alt (GBA)",
                     "file":  "jingles/gba/Metroid Fusion Alt.ogg",
-                    "regex":  "^metroid[^a-z0-9]*fusion[^a-z0-9]*alt$|^metroidfusionalt$|^mfa$"
+                    "regex":  "^metroid[^a-z0-9]*fusion[^a-z0-9]*alt(?![^a-z0-9]*(?:(?:(?:2|ii))))$|^metroidfusionalt$|^mfa$"
                 },
                 {
                     "name":  "Metroid Fusion (GBA)",
@@ -3157,9 +3257,14 @@
                     "regex":  "^metroid[^a-z0-9]*fusion(?![^a-z0-9]*(?:(?:alt)))$|^metroidfusion$"
                 },
                 {
-                    "name":  "Metroid Zero Mission Alt",
+                    "name":  "Metroid Zero Mission Alt 2",
+                    "file":  "jingles/gba/Metroid Zero Mission Alt 2.ogg",
+                    "regex":  "^metroid[^a-z0-9]*zero[^a-z0-9]*mission[^a-z0-9]*alt[^a-z0-9]*(?:2|ii)$|^metroidzeromissionalt2$|^mzma2$"
+                },
+                {
+                    "name":  "Metroid Zero Mission Alt (GBA)",
                     "file":  "jingles/gba/Metroid Zero Mission Alt.ogg",
-                    "regex":  "^metroid[^a-z0-9]*zero[^a-z0-9]*mission[^a-z0-9]*alt$|^metroidzeromissionalt$|^mzma$"
+                    "regex":  "^metroid[^a-z0-9]*zero[^a-z0-9]*mission[^a-z0-9]*alt(?![^a-z0-9]*(?:(?:(?:2|ii))))$|^metroidzeromissionalt$|^mzma$"
                 },
                 {
                     "name":  "Metroid Zero Mission (GBA)",
@@ -3197,9 +3302,24 @@
                     "regex":  "^ninja[^a-z0-9]*five[^a-z0-9]*o$|^ninjafiveo$|^nfo$"
                 },
                 {
-                    "name":  "Pokemon Emerald",
+                    "name":  "Pokemon Emerald Alt",
+                    "file":  "jingles/gba/Pokemon Emerald Alt.ogg",
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*emerald[^a-z0-9]*alt$|^pokemonemeraldalt$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*emerald[^a-z0-9]*alt(?:[^a-z0-9]*(?:version))?$"
+                },
+                {
+                    "name":  "Pokemon Emerald Seaglass Version",
+                    "file":  "jingles/gba/Pokemon Emerald Seaglass Version.ogg",
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*emerald[^a-z0-9]*seaglass[^a-z0-9]*version$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*emerald[^a-z0-9]*seaglass$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*emerald[^a-z0-9]*seaglass[^a-z0-9]*version(?:[^a-z0-9]*(?:version))?$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*emerald[^a-z0-9]*seaglass(?:[^a-z0-9]*(?:version))?$"
+                },
+                {
+                    "name":  "Pokemon Emerald (GBA)",
                     "file":  "jingles/gba/Pokemon Emerald.ogg",
-                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*emerald$|^pokemonemerald$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*emerald(?:[^a-z0-9]*(?:version))?$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*emerald(?![^a-z0-9]*(?:(?:alt|seaglass)))$|^pokemonemerald$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*emerald(?:[^a-z0-9]*(?:version))?$"
+                },
+                {
+                    "name":  "Pokemon FireRed Alt",
+                    "file":  "jingles/gba/Pokemon FireRed Alt.ogg",
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*firered[^a-z0-9]*alt$|^pokemonfireredalt$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*firered[^a-z0-9]*alt(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon FireRed / LeafGreen",
@@ -3227,9 +3347,14 @@
                     "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*mystery[^a-z0-9]*dungeon[^a-z0-9]*red[^a-z0-9]*rescue[^a-z0-9]*team$|^mdrrt$|^pmd[^a-z0-9]*red$|^red[^a-z0-9]*rescue[^a-z0-9]*team$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*mystery[^a-z0-9]*dungeon[^a-z0-9]*red[^a-z0-9]*rescue[^a-z0-9]*team(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
-                    "name":  "Pokemon Pinball Ruby and Sapphire",
+                    "name":  "Pokemon Pinball Ruby and Sapphire Alt",
+                    "file":  "jingles/gba/Pokemon Pinball Ruby and Sapphire Alt.ogg",
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*pinball[^a-z0-9]*ruby[^a-z0-9]*(?:and|\u0026|n)[^a-z0-9]*sapphire[^a-z0-9]*alt$|^prasa$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*pinball[^a-z0-9]*ruby[^a-z0-9]*(?:and|\u0026|n)[^a-z0-9]*sapphire[^a-z0-9]*alt(?:[^a-z0-9]*(?:version))?$"
+                },
+                {
+                    "name":  "Pokemon Pinball Ruby and Sapphire (GBA)",
                     "file":  "jingles/gba/Pokemon Pinball Ruby and Sapphire.ogg",
-                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*pinball[^a-z0-9]*ruby[^a-z0-9]*(?:and|\u0026|n)[^a-z0-9]*sapphire$|^pras$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*pinball[^a-z0-9]*ruby[^a-z0-9]*(?:and|\u0026|n)[^a-z0-9]*sapphire(?:[^a-z0-9]*(?:version))?$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*pinball[^a-z0-9]*ruby[^a-z0-9]*(?:and|\u0026|n)[^a-z0-9]*sapphire(?![^a-z0-9]*(?:(?:alt)))$|^pras$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*pinball[^a-z0-9]*ruby[^a-z0-9]*(?:and|\u0026|n)[^a-z0-9]*sapphire(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Pinball: Ruby \u0026 Sapphire",
@@ -3252,9 +3377,9 @@
                     "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*unbound$|^pokemonunbound$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*unbound(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
-                    "name":  "Pokemon Emerald",
+                    "name":  "Pokemon Emerald (GBA)",
                     "file":  "jingles/gba/pokemon-emerald.ogg",
-                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*emerald$|^pokemonemerald$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*emerald(?:[^a-z0-9]*(?:version))?$"
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*emerald(?![^a-z0-9]*(?:(?:alt|seaglass)))$|^pokemonemerald$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*emerald(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon Fire Red",
@@ -3282,6 +3407,11 @@
                     "regex":  "^rebelstar$"
                 },
                 {
+                    "name":  "Rhythm Heaven Silver",
+                    "file":  "jingles/gba/Rhythm Heaven Silver.ogg",
+                    "regex":  "^rhythm[^a-z0-9]*heaven[^a-z0-9]*silver$|^rhythmheavensilver$|^rhs$"
+                },
+                {
                     "name":  "Sabre Wulf",
                     "file":  "jingles/gba/Sabre Wulf.ogg",
                     "regex":  "^sabre[^a-z0-9]*wulf$|^sabrewulf$"
@@ -3297,9 +3427,14 @@
                     "regex":  "^sonic[^a-z0-9]*advance[^a-z0-9]*(?:2|ii)[^a-z0-9]*alt[^a-z0-9]*(?:2|ii)$|^sonicadvance2alt2$|^a2a2$"
                 },
                 {
+                    "name":  "Sonic Advance 2 Alt 3",
+                    "file":  "jingles/gba/Sonic Advance 2 Alt 3.ogg",
+                    "regex":  "^sonic[^a-z0-9]*advance[^a-z0-9]*(?:2|ii)[^a-z0-9]*alt[^a-z0-9]*(?:3|iii)$|^sonicadvance2alt3$|^a2a3$"
+                },
+                {
                     "name":  "Sonic Advance 2 Alt (GBA)",
                     "file":  "jingles/gba/Sonic Advance 2 Alt.ogg",
-                    "regex":  "^sonic[^a-z0-9]*advance[^a-z0-9]*(?:2|ii)[^a-z0-9]*alt(?![^a-z0-9]*(?:(?:(?:2|ii))))$|^sonicadvance2alt$|^a2a$"
+                    "regex":  "^sonic[^a-z0-9]*advance[^a-z0-9]*(?:2|ii)[^a-z0-9]*alt(?![^a-z0-9]*(?:(?:(?:2|ii)|(?:3|iii))))$|^sonicadvance2alt$|^a2a$"
                 },
                 {
                     "name":  "Sonic Advance 2 (GBA)",
@@ -3312,9 +3447,14 @@
                     "regex":  "^sonic[^a-z0-9]*advance[^a-z0-9]*(?:2|ii)(?![^a-z0-9]*(?:(?:alt)))$|^sonicadvance2$"
                 },
                 {
-                    "name":  "Sonic Advance 3 Alt",
+                    "name":  "Sonic Advance 3 Alt 2",
+                    "file":  "jingles/gba/Sonic Advance 3 Alt 2.ogg",
+                    "regex":  "^sonic[^a-z0-9]*advance[^a-z0-9]*(?:3|iii)[^a-z0-9]*alt[^a-z0-9]*(?:2|ii)$|^sonicadvance3alt2$|^a3a2$"
+                },
+                {
+                    "name":  "Sonic Advance 3 Alt (GBA)",
                     "file":  "jingles/gba/Sonic Advance 3 Alt.ogg",
-                    "regex":  "^sonic[^a-z0-9]*advance[^a-z0-9]*(?:3|iii)[^a-z0-9]*alt$|^sonicadvance3alt$|^a3a$"
+                    "regex":  "^sonic[^a-z0-9]*advance[^a-z0-9]*(?:3|iii)[^a-z0-9]*alt(?![^a-z0-9]*(?:(?:(?:2|ii))))$|^sonicadvance3alt$|^a3a$"
                 },
                 {
                     "name":  "Sonic Advance 3 (GBA)",
@@ -3327,9 +3467,14 @@
                     "regex":  "^sonic[^a-z0-9]*advance[^a-z0-9]*(?:3|iii)(?![^a-z0-9]*(?:(?:alt)))$|^sonicadvance3$"
                 },
                 {
-                    "name":  "Sonic Advance Alt",
+                    "name":  "Sonic Advance Alt 2",
+                    "file":  "jingles/gba/Sonic Advance Alt 2.ogg",
+                    "regex":  "^sonic[^a-z0-9]*advance[^a-z0-9]*alt[^a-z0-9]*(?:2|ii)$|^sonicadvancealt2$|^aa2$"
+                },
+                {
+                    "name":  "Sonic Advance Alt (GBA)",
                     "file":  "jingles/gba/Sonic Advance Alt.ogg",
-                    "regex":  "^sonic[^a-z0-9]*advance[^a-z0-9]*alt$|^sonicadvancealt$"
+                    "regex":  "^sonic[^a-z0-9]*advance[^a-z0-9]*alt(?![^a-z0-9]*(?:(?:(?:2|ii))))$|^sonicadvancealt$"
                 },
                 {
                     "name":  "Sonic Advance (GBA)",
@@ -3342,14 +3487,24 @@
                     "regex":  "^sonic[^a-z0-9]*advance(?![^a-z0-9]*(?:(?:(?:2|ii)|(?:3|iii)|alt)))$|^sonicadvance$"
                 },
                 {
-                    "name":  "Sonic Battle",
-                    "file":  "jingles/gba/Sonic Battle.mp3",
-                    "regex":  "^sonic[^a-z0-9]*battle$|^sonicbattle$"
+                    "name":  "Sonic Battle Alt",
+                    "file":  "jingles/gba/Sonic Battle Alt.ogg",
+                    "regex":  "^sonic[^a-z0-9]*battle[^a-z0-9]*alt$|^sonicbattlealt$"
                 },
                 {
-                    "name":  "Sonic Battle",
+                    "name":  "Sonic Battle (GBA)",
+                    "file":  "jingles/gba/Sonic Battle.mp3",
+                    "regex":  "^sonic[^a-z0-9]*battle(?![^a-z0-9]*(?:(?:alt)))$|^sonicbattle$"
+                },
+                {
+                    "name":  "Sonic Battle (GBA)",
                     "file":  "jingles/gba/Sonic Battle.ogg",
-                    "regex":  "^sonic[^a-z0-9]*battle$|^sonicbattle$"
+                    "regex":  "^sonic[^a-z0-9]*battle(?![^a-z0-9]*(?:(?:alt)))$|^sonicbattle$"
+                },
+                {
+                    "name":  "Sonic Pinball Party",
+                    "file":  "jingles/gba/Sonic Pinball Party.ogg",
+                    "regex":  "^sonic[^a-z0-9]*pinball[^a-z0-9]*party$|^sonicpinballparty$"
                 },
                 {
                     "name":  "SpongeBob SquarePants Battle for Bikini Bottom GBA",
@@ -3402,9 +3557,14 @@
                     "regex":  "^super[^a-z0-9]*mario[^a-z0-9]*advance[^a-z0-9]*super[^a-z0-9]*mario[^a-z0-9]*(?:bros|brothers)[^a-z0-9]*(?:2|ii)$|^ab2$"
                 },
                 {
-                    "name":  "Super Mario Advance 2 - Super Mario World",
+                    "name":  "Super Mario Advance 2 - Super Mario World Alt",
+                    "file":  "jingles/gba/Super Mario Advance 2 - Super Mario World Alt.ogg",
+                    "regex":  "^super[^a-z0-9]*mario[^a-z0-9]*advance[^a-z0-9]*(?:2|ii)[^a-z0-9]*super[^a-z0-9]*mario[^a-z0-9]*world[^a-z0-9]*alt$|^a2wa$"
+                },
+                {
+                    "name":  "Super Mario Advance 2 - Super Mario World (GBA)",
                     "file":  "jingles/gba/Super Mario Advance 2 - Super Mario World.mp3",
-                    "regex":  "^super[^a-z0-9]*mario[^a-z0-9]*advance[^a-z0-9]*(?:2|ii)[^a-z0-9]*super[^a-z0-9]*mario[^a-z0-9]*world$|^a2w$"
+                    "regex":  "^super[^a-z0-9]*mario[^a-z0-9]*advance[^a-z0-9]*(?:2|ii)[^a-z0-9]*super[^a-z0-9]*mario[^a-z0-9]*world(?![^a-z0-9]*(?:(?:alt)))$|^a2w$"
                 },
                 {
                     "name":  "Super Mario Advance 3 - Yoshi\u0027s Island",
@@ -3412,9 +3572,14 @@
                     "regex":  "^super[^a-z0-9]*mario[^a-z0-9]*advance[^a-z0-9]*(?:3|iii)[^a-z0-9]*yoshi[^a-z0-9]*s[^a-z0-9]*island$|^a3yi$"
                 },
                 {
-                    "name":  "Super Mario Advance 4 - Super Mario Bros. 3",
+                    "name":  "Super Mario Advance 4 - Super Mario Bros. 3 Alt",
+                    "file":  "jingles/gba/Super Mario Advance 4 - Super Mario Bros. 3 Alt.ogg",
+                    "regex":  "^super[^a-z0-9]*mario[^a-z0-9]*advance[^a-z0-9]*(?:4|iv)[^a-z0-9]*super[^a-z0-9]*mario[^a-z0-9]*(?:bros|brothers)[^a-z0-9]*(?:3|iii)[^a-z0-9]*alt$|^a4b3a$"
+                },
+                {
+                    "name":  "Super Mario Advance 4 - Super Mario Bros. 3 (GBA)",
                     "file":  "jingles/gba/Super Mario Advance 4 - Super Mario Bros. 3.mp3",
-                    "regex":  "^super[^a-z0-9]*mario[^a-z0-9]*advance[^a-z0-9]*(?:4|iv)[^a-z0-9]*super[^a-z0-9]*mario[^a-z0-9]*(?:bros|brothers)[^a-z0-9]*(?:3|iii)$|^a4b3$"
+                    "regex":  "^super[^a-z0-9]*mario[^a-z0-9]*advance[^a-z0-9]*(?:4|iv)[^a-z0-9]*super[^a-z0-9]*mario[^a-z0-9]*(?:bros|brothers)[^a-z0-9]*(?:3|iii)(?![^a-z0-9]*(?:(?:alt)))$|^a4b3$"
                 },
                 {
                     "name":  "Super Mario Advance 4 (GBA)",
@@ -3447,14 +3612,19 @@
                     "regex":  "^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*a[^a-z0-9]*link[^a-z0-9]*to[^a-z0-9]*the[^a-z0-9]*past[^a-z0-9]*four[^a-z0-9]*swords$|^legend[^a-z0-9]*zelda[^a-z0-9]*link[^a-z0-9]*past[^a-z0-9]*four[^a-z0-9]*swords$|^lpfs$"
                 },
                 {
-                    "name":  "The Legend of Zelda: The Minish Cap",
-                    "file":  "jingles/gba/The Legend of Zelda - The Minish Cap.mp3",
-                    "regex":  "^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*the[^a-z0-9]*minish[^a-z0-9]*cap$|^legend[^a-z0-9]*zelda[^a-z0-9]*minish[^a-z0-9]*cap$|^thelegendofzeldatheminishcap$"
+                    "name":  "The Legend of Zelda - The Minish Cap Alt",
+                    "file":  "jingles/gba/The Legend of Zelda - The Minish Cap Alt.ogg",
+                    "regex":  "^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*the[^a-z0-9]*minish[^a-z0-9]*cap[^a-z0-9]*alt$|^legend[^a-z0-9]*zelda[^a-z0-9]*minish[^a-z0-9]*cap[^a-z0-9]*alt$|^mca$"
                 },
                 {
-                    "name":  "The Legend of Zelda: The Minish Cap",
+                    "name":  "The Legend of Zelda: The Minish Cap (GBA)",
+                    "file":  "jingles/gba/The Legend of Zelda - The Minish Cap.mp3",
+                    "regex":  "^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*the[^a-z0-9]*minish[^a-z0-9]*cap(?![^a-z0-9]*(?:(?:alt)))$|^legend[^a-z0-9]*zelda[^a-z0-9]*minish[^a-z0-9]*cap(?![^a-z0-9]*(?:(?:alt)))$|^thelegendofzeldatheminishcap$"
+                },
+                {
+                    "name":  "The Legend of Zelda: The Minish Cap (GBA)",
                     "file":  "jingles/gba/The Legend of Zelda The Minish Cap.ogg",
-                    "regex":  "^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*the[^a-z0-9]*minish[^a-z0-9]*cap$|^legend[^a-z0-9]*zelda[^a-z0-9]*minish[^a-z0-9]*cap$|^thelegendofzeldatheminishcap$"
+                    "regex":  "^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*the[^a-z0-9]*minish[^a-z0-9]*cap(?![^a-z0-9]*(?:(?:alt)))$|^legend[^a-z0-9]*zelda[^a-z0-9]*minish[^a-z0-9]*cap(?![^a-z0-9]*(?:(?:alt)))$|^thelegendofzeldatheminishcap$"
                 },
                 {
                     "name":  "The Legendary Starfy",
@@ -3771,7 +3941,7 @@
                {
                    "name":  "Harvest Moon (GC)",
                    "file":  "jingles/gc/Harvest Moon.ogg",
-                   "regex":  "^harvest[^a-z0-9]*moon(?![^a-z0-9]*(?:(?:animal|ds|magical|skytree|tree)))$|^harvestmoon$"
+                   "regex":  "^harvest[^a-z0-9]*moon(?![^a-z0-9]*(?:(?:animal|ds|friends|magical|skytree|tree)))$|^harvestmoon$"
                },
                {
                    "name":  "Heroes (GC)",
@@ -4531,6 +4701,11 @@
                     "regex":  "^children[^a-z0-9]*of[^a-z0-9]*mana$|^children[^a-z0-9]*mana$|^childrenofmana$"
                 },
                 {
+                    "name":  "Chrono Trigger Alt",
+                    "file":  "jingles/nds/Chrono Trigger Alt.ogg",
+                    "regex":  "^chrono[^a-z0-9]*trigger[^a-z0-9]*alt$|^chronotriggeralt$|^cta$"
+                },
+                {
                     "name":  "Chrono Trigger (DS)",
                     "file":  "jingles/nds/Chrono Trigger.ogg",
                     "regex":  "^chrono[^a-z0-9]*trigger(?![^a-z0-9]*(?:(?:alt)))$|^chronotrigger$"
@@ -4641,9 +4816,14 @@
                     "regex":  "^final[^a-z0-9]*fantasy[^a-z0-9]*(?:iv|4|four)(?![^a-z0-9]*(?:(?:alt|complete)))$|^finalfantasyiv$"
                 },
                 {
-                    "name":  "Final Fantasy Tactics A2",
+                    "name":  "Final Fantasy Tactics A2 Alt",
+                    "file":  "jingles/nds/Final Fantasy Tactics A2 Alt.ogg",
+                    "regex":  "^final[^a-z0-9]*fantasy[^a-z0-9]*tactics[^a-z0-9]*a2[^a-z0-9]*alt$|^finalfantasytacticsa2alt$|^taa$"
+                },
+                {
+                    "name":  "Final Fantasy Tactics A2 (DS)",
                     "file":  "jingles/nds/Final Fantasy Tactics A2.ogg",
-                    "regex":  "^final[^a-z0-9]*fantasy[^a-z0-9]*tactics[^a-z0-9]*a2$|^finalfantasytacticsa2$"
+                    "regex":  "^final[^a-z0-9]*fantasy[^a-z0-9]*tactics[^a-z0-9]*a2(?![^a-z0-9]*(?:(?:alt)))$|^finalfantasytacticsa2$"
                 },
                 {
                     "name":  "Ghost Trick - Phantom Detective",
@@ -4736,9 +4916,14 @@
                     "regex":  "^kirby[^a-z0-9]*mouse[^a-z0-9]*attack$|^kirbymouseattack$"
                 },
                 {
-                    "name":  "Kirby Squeak Squad Alt",
+                    "name":  "Kirby Squeak Squad Alt 2",
+                    "file":  "jingles/nds/Kirby Squeak Squad Alt 2.ogg",
+                    "regex":  "^kirby[^a-z0-9]*squeak[^a-z0-9]*squad[^a-z0-9]*alt[^a-z0-9]*(?:2|ii)$|^kirbysqueaksquadalt2$|^ssa2$"
+                },
+                {
+                    "name":  "Kirby Squeak Squad Alt (DS)",
                     "file":  "jingles/nds/Kirby Squeak Squad Alt.ogg",
-                    "regex":  "^kirby[^a-z0-9]*squeak[^a-z0-9]*squad[^a-z0-9]*alt$|^kirbysqueaksquadalt$|^ssa$"
+                    "regex":  "^kirby[^a-z0-9]*squeak[^a-z0-9]*squad[^a-z0-9]*alt(?![^a-z0-9]*(?:(?:(?:2|ii))))$|^kirbysqueaksquadalt$|^ssa$"
                 },
                 {
                     "name":  "Kirby Squeak Squad (DS)",
@@ -4749,6 +4934,11 @@
                     "name":  "Kirby Squeak Squad (DS)",
                     "file":  "jingles/nds/Kirby Squeak Squad.ogg",
                     "regex":  "^kirby[^a-z0-9]*squeak[^a-z0-9]*squad(?![^a-z0-9]*(?:(?:alt)))$|^kirbysqueaksquad$"
+                },
+                {
+                    "name":  "Kirby Super Star Ultra",
+                    "file":  "jingles/nds/Kirby Super Star Ultra.ogg",
+                    "regex":  "^kirby[^a-z0-9]*super[^a-z0-9]*star[^a-z0-9]*ultra$|^kirbysuperstarultra$"
                 },
                 {
                     "name":  "Lego Battles Ninjago",
@@ -4826,9 +5016,14 @@
                     "regex":  "^mega[^a-z0-9]*man[^a-z0-9]*star[^a-z0-9]*force(?![^a-z0-9]*(?:(?:(?:2|ii)|(?:3|iii))))$|^megamanstarforce$"
                 },
                 {
-                    "name":  "Mega Man Zero Collection",
+                    "name":  "Mega Man Zero Collection Alt",
+                    "file":  "jingles/nds/Mega Man Zero Collection Alt.ogg",
+                    "regex":  "^mega[^a-z0-9]*man[^a-z0-9]*zero[^a-z0-9]*collection[^a-z0-9]*alt$|^megamanzerocollectionalt$|^zca$"
+                },
+                {
+                    "name":  "Mega Man Zero Collection (DS)",
                     "file":  "jingles/nds/Mega Man Zero Collection.mp3",
-                    "regex":  "^mega[^a-z0-9]*man[^a-z0-9]*zero[^a-z0-9]*collection$|^megamanzerocollection$"
+                    "regex":  "^mega[^a-z0-9]*man[^a-z0-9]*zero[^a-z0-9]*collection(?![^a-z0-9]*(?:(?:alt)))$|^megamanzerocollection$"
                 },
                 {
                     "name":  "Mega Man ZX Advent",
@@ -4946,9 +5141,19 @@
                     "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*black[^a-z0-9]*(?:2|ii)[^a-z0-9]*kyurem[^a-z0-9]*black$|^pokemonblack2kyuremblack$|^b2kb$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*black[^a-z0-9]*(?:2|ii)[^a-z0-9]*kyurem[^a-z0-9]*black(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
+                    "name":  "Pokemon Black Alt",
+                    "file":  "jingles/nds/Pokemon Black Alt.ogg",
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*black[^a-z0-9]*alt$|^pokemonblackalt$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*black[^a-z0-9]*alt(?:[^a-z0-9]*(?:version))?$"
+                },
+                {
                     "name":  "Pokemon Diamond / Pearl / Platinum (Dialga)",
                     "file":  "jingles/nds/Pokemon Diamond Pearl Platinum Dialga.mp3",
                     "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*diamond[^a-z0-9]*pearl[^a-z0-9]*platinum[^a-z0-9]*dialga$|^dppd$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*diamond[^a-z0-9]*pearl[^a-z0-9]*platinum[^a-z0-9]*dialga(?:[^a-z0-9]*(?:version))?$"
+                },
+                {
+                    "name":  "Pokemon HeartGold Alt",
+                    "file":  "jingles/nds/Pokemon HeartGold Alt.ogg",
+                    "regex":  "^pok(?:e|\\x{00E9})mon[^a-z0-9]*heartgold[^a-z0-9]*alt$|^pokemonheartgoldalt$|^pok(?:e|\\x{00E9})mon[^a-z0-9]*heartgold[^a-z0-9]*alt(?:[^a-z0-9]*(?:version))?$"
                 },
                 {
                     "name":  "Pokemon HeartGold / SoulSilver",
@@ -5066,6 +5271,11 @@
                     "regex":  "^resident[^a-z0-9]*evil[^a-z0-9]*deadly[^a-z0-9]*silence$|^residentevildeadlysilence$|^reds$"
                 },
                 {
+                    "name":  "Rhythm Heaven (DS)",
+                    "file":  "jingles/nds/Rhythm Heaven.ogg",
+                    "regex":  "^rhythm[^a-z0-9]*heaven(?![^a-z0-9]*(?:(?:fever|silver)))$|^rhythmheaven$"
+                },
+                {
                     "name":  "Ridge Racer 64DS - Motion Blur Music Música",
                     "file":  "jingles/nds/Ridge Racer 64DS - Motion Blur Music Música.mp3",
                     "regex":  "^ridge[^a-z0-9]*racer[^a-z0-9]*64ds[^a-z0-9]*motion[^a-z0-9]*blur[^a-z0-9]*music[^a-z0-9]*m[^a-z0-9]*sica$"
@@ -5096,9 +5306,14 @@
                     "regex":  "^sonic[^a-z0-9]*rush[^a-z0-9]*adventure[^a-z0-9]*dreamcast[^a-z0-9]*misplaced[^a-z0-9]*copy$|^radmc$"
                 },
                 {
-                    "name":  "Sonic Rush Adventure Alt",
+                    "name":  "Sonic Rush Adventure Alt 2",
+                    "file":  "jingles/nds/Sonic Rush Adventure Alt 2.ogg",
+                    "regex":  "^sonic[^a-z0-9]*rush[^a-z0-9]*adventure[^a-z0-9]*alt[^a-z0-9]*(?:2|ii)$|^sonicrushadventurealt2$|^raa2$"
+                },
+                {
+                    "name":  "Sonic Rush Adventure Alt (DS)",
                     "file":  "jingles/nds/Sonic Rush Adventure Alt.ogg",
-                    "regex":  "^sonic[^a-z0-9]*rush[^a-z0-9]*adventure[^a-z0-9]*alt$|^sonicrushadventurealt$|^raa$"
+                    "regex":  "^sonic[^a-z0-9]*rush[^a-z0-9]*adventure[^a-z0-9]*alt(?![^a-z0-9]*(?:(?:(?:2|ii))))$|^sonicrushadventurealt$|^raa$"
                 },
                 {
                     "name":  "Sonic Rush Adventure (DS)",
@@ -5111,9 +5326,14 @@
                     "regex":  "^sonic[^a-z0-9]*rush[^a-z0-9]*adventure(?![^a-z0-9]*(?:(?:alt|dreamcast)))$|^sonicrushadventure$"
                 },
                 {
-                    "name":  "Sonic Rush Alt",
+                    "name":  "Sonic Rush Alt 2",
+                    "file":  "jingles/nds/Sonic Rush Alt 2.ogg",
+                    "regex":  "^sonic[^a-z0-9]*rush[^a-z0-9]*alt[^a-z0-9]*(?:2|ii)$|^sonicrushalt2$|^ra2$"
+                },
+                {
+                    "name":  "Sonic Rush Alt (DS)",
                     "file":  "jingles/nds/Sonic Rush Alt.ogg",
-                    "regex":  "^sonic[^a-z0-9]*rush[^a-z0-9]*alt$|^sonicrushalt$"
+                    "regex":  "^sonic[^a-z0-9]*rush[^a-z0-9]*alt(?![^a-z0-9]*(?:(?:(?:2|ii))))$|^sonicrushalt$"
                 },
                 {
                     "name":  "Sonic Rush Trilogy",
@@ -5176,24 +5396,34 @@
                     "regex":  "^tetris[^a-z0-9]*ds(?![^a-z0-9]*(?:(?:alt)))$|^tetrisds$"
                 },
                 {
-                    "name":  "The Legend of Zelda - Phantom Hourglass",
+                    "name":  "The Legend of Zelda - Phantom Hourglass Alt",
+                    "file":  "jingles/nds/The Legend of Zelda - Phantom Hourglass Alt.ogg",
+                    "regex":  "^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*phantom[^a-z0-9]*hourglass[^a-z0-9]*alt$|^legend[^a-z0-9]*zelda[^a-z0-9]*phantom[^a-z0-9]*hourglass[^a-z0-9]*alt$|^pha$"
+                },
+                {
+                    "name":  "The Legend of Zelda - Phantom Hourglass (DS)",
                     "file":  "jingles/nds/The Legend of Zelda - Phantom Hourglass.mp3",
-                    "regex":  "^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*phantom[^a-z0-9]*hourglass$|^legend[^a-z0-9]*zelda[^a-z0-9]*phantom[^a-z0-9]*hourglass$"
+                    "regex":  "^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*phantom[^a-z0-9]*hourglass(?![^a-z0-9]*(?:(?:alt)))$|^legend[^a-z0-9]*zelda[^a-z0-9]*phantom[^a-z0-9]*hourglass(?![^a-z0-9]*(?:(?:alt)))$"
                 },
                 {
-                    "name":  "The Legend of Zelda - Spirit Tracks",
+                    "name":  "The Legend of Zelda - Spirit Tracks Alt",
+                    "file":  "jingles/nds/The Legend of Zelda - Spirit Tracks Alt.ogg",
+                    "regex":  "^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*spirit[^a-z0-9]*tracks[^a-z0-9]*alt$|^legend[^a-z0-9]*zelda[^a-z0-9]*spirit[^a-z0-9]*tracks[^a-z0-9]*alt$|^sta$"
+                },
+                {
+                    "name":  "The Legend of Zelda - Spirit Tracks (DS)",
                     "file":  "jingles/nds/The Legend of Zelda - Spirit Tracks.mp3",
-                    "regex":  "^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*spirit[^a-z0-9]*tracks$|^legend[^a-z0-9]*zelda[^a-z0-9]*spirit[^a-z0-9]*tracks$|^thelegendofzeldaspirittracks$"
+                    "regex":  "^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*spirit[^a-z0-9]*tracks(?![^a-z0-9]*(?:(?:alt)))$|^legend[^a-z0-9]*zelda[^a-z0-9]*spirit[^a-z0-9]*tracks(?![^a-z0-9]*(?:(?:alt)))$|^thelegendofzeldaspirittracks$"
                 },
                 {
-                    "name":  "The Legend of Zelda Phantom Hourglass",
+                    "name":  "The Legend of Zelda Phantom Hourglass (DS)",
                     "file":  "jingles/nds/The Legend of Zelda Phantom Hourglass.ogg",
-                    "regex":  "^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*phantom[^a-z0-9]*hourglass$|^legend[^a-z0-9]*zelda[^a-z0-9]*phantom[^a-z0-9]*hourglass$"
+                    "regex":  "^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*phantom[^a-z0-9]*hourglass(?![^a-z0-9]*(?:(?:alt)))$|^legend[^a-z0-9]*zelda[^a-z0-9]*phantom[^a-z0-9]*hourglass(?![^a-z0-9]*(?:(?:alt)))$"
                 },
                 {
-                    "name":  "The Legend of Zelda Spirit Tracks",
+                    "name":  "The Legend of Zelda Spirit Tracks (DS)",
                     "file":  "jingles/nds/The Legend of Zelda Spirit Tracks.ogg",
-                    "regex":  "^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*spirit[^a-z0-9]*tracks$|^legend[^a-z0-9]*zelda[^a-z0-9]*spirit[^a-z0-9]*tracks$|^thelegendofzeldaspirittracks$"
+                    "regex":  "^the[^a-z0-9]*legend[^a-z0-9]*of[^a-z0-9]*zelda[^a-z0-9]*spirit[^a-z0-9]*tracks(?![^a-z0-9]*(?:(?:alt)))$|^legend[^a-z0-9]*zelda[^a-z0-9]*spirit[^a-z0-9]*tracks(?![^a-z0-9]*(?:(?:alt)))$|^thelegendofzeldaspirittracks$"
                 },
                 {
                     "name":  "The Urbz DS",
@@ -5201,9 +5431,14 @@
                     "regex":  "^the[^a-z0-9]*urbz[^a-z0-9]*ds$|^urbz[^a-z0-9]*ds$|^theurbzds$"
                 },
                 {
-                    "name":  "The World Ends With You",
+                    "name":  "The World Ends With You Alt",
+                    "file":  "jingles/nds/The World Ends With You Alt.ogg",
+                    "regex":  "^the[^a-z0-9]*world[^a-z0-9]*ends[^a-z0-9]*with[^a-z0-9]*you[^a-z0-9]*alt$|^world[^a-z0-9]*ends[^a-z0-9]*you[^a-z0-9]*alt$|^theworldendswithyoualt$|^weya$"
+                },
+                {
+                    "name":  "The World Ends With You (DS)",
                     "file":  "jingles/nds/The World Ends With You.ogg",
-                    "regex":  "^the[^a-z0-9]*world[^a-z0-9]*ends[^a-z0-9]*with[^a-z0-9]*you$|^world[^a-z0-9]*ends[^a-z0-9]*you$|^theworldendswithyou$|^wey$"
+                    "regex":  "^the[^a-z0-9]*world[^a-z0-9]*ends[^a-z0-9]*with[^a-z0-9]*you(?![^a-z0-9]*(?:(?:alt)))$|^world[^a-z0-9]*ends[^a-z0-9]*you(?![^a-z0-9]*(?:(?:alt)))$|^theworldendswithyou$|^wey$"
                 },
                 {
                     "name":  "Viva Pinata Pocket Paradise",
@@ -5653,9 +5888,14 @@
                     "regex":  "^sonic[^a-z0-9]*(?:and|\u0026|n)[^a-z0-9]*the[^a-z0-9]*secret[^a-z0-9]*rings(?![^a-z0-9]*(?:(?:alt)))$|^sonic[^a-z0-9]*(?:and|\u0026|n)[^a-z0-9]*secret[^a-z0-9]*rings(?![^a-z0-9]*(?:(?:alt)))$|^sonicandthesecretrings$|^asr$"
                 },
                 {
+                    "name":  "Sonic Colors Alt",
+                    "file":  "jingles/wii/Sonic Colors Alt.ogg",
+                    "regex":  "^sonic[^a-z0-9]*colors[^a-z0-9]*alt$|^soniccolorsalt$"
+                },
+                {
                     "name":  "Sonic Colors (Wii)",
                     "file":  "jingles/wii/Sonic Colors.ogg",
-                    "regex":  "^sonic[^a-z0-9]*colors(?![^a-z0-9]*(?:(?:ds)))$|^soniccolors$"
+                    "regex":  "^sonic[^a-z0-9]*colors(?![^a-z0-9]*(?:(?:alt|ds)))$|^soniccolors$"
                 },
                 {
                     "name":  "Sonic Unleashed Alt",
@@ -5675,7 +5915,7 @@
                 {
                     "name":  "Sonic Colors (Wii)",
                     "file":  "jingles/wii/sonic-colors.ogg",
-                    "regex":  "^sonic[^a-z0-9]*colors(?![^a-z0-9]*(?:(?:ds)))$|^soniccolors$"
+                    "regex":  "^sonic[^a-z0-9]*colors(?![^a-z0-9]*(?:(?:alt|ds)))$|^soniccolors$"
                 },
                 {
                     "name":  "Mario Strikers Charged",
@@ -6018,6 +6258,11 @@
                      "name":  "Detective Pikachu",
                      "file":  "jingles/n3ds/detective-pikachu.ogg",
                      "regex":  "^detective[^a-z0-9]*pikachu$|^detectivepikachu$"
+                 },
+                 {
+                     "name":  "Digimon World Re-Digitize Decode",
+                     "file":  "jingles/n3ds/Digimon World Re-Digitize Decode.ogg",
+                     "regex":  "^digimon[^a-z0-9]*world[^a-z0-9]*re[^a-z0-9]*digitize[^a-z0-9]*decode$|^digimonworldredigitizedecode$|^dwrdd$"
                  },
                  {
                      "name":  "Dillons Dead Heat Breakers",
@@ -8209,9 +8454,9 @@
                        "regex":  "^the[^a-z0-9]*oregon[^a-z0-9]*trail$|^oregon[^a-z0-9]*trail$|^theoregontrail$"
                    },
                    {
-                       "name":  "The World Ends With You",
+                       "name":  "The World Ends With You (Switch)",
                        "file":  "jingles/switch/The World Ends With You.ogg",
-                       "regex":  "^the[^a-z0-9]*world[^a-z0-9]*ends[^a-z0-9]*with[^a-z0-9]*you$|^world[^a-z0-9]*ends[^a-z0-9]*you$|^theworldendswithyou$|^wey$"
+                       "regex":  "^the[^a-z0-9]*world[^a-z0-9]*ends[^a-z0-9]*with[^a-z0-9]*you(?![^a-z0-9]*(?:(?:alt)))$|^world[^a-z0-9]*ends[^a-z0-9]*you(?![^a-z0-9]*(?:(?:alt)))$|^theworldendswithyou$|^wey$"
                    },
                    {
                        "name":  "Theatrhythm Final Bar Line",
@@ -8401,9 +8646,14 @@
                           "regex":  "^comix[^a-z0-9]*zone$|^comixzone$"
                       },
                       {
-                          "name":  "Contra Hard Corps",
+                          "name":  "Contra Hard Corps Alt",
+                          "file":  "jingles/megadrive/Contra Hard Corps Alt.ogg",
+                          "regex":  "^contra[^a-z0-9]*hard[^a-z0-9]*corps[^a-z0-9]*alt$|^contrahardcorpsalt$|^chca$"
+                      },
+                      {
+                          "name":  "Contra Hard Corps (Mega Drive)",
                           "file":  "jingles/megadrive/Contra Hard Corps.mp3",
-                          "regex":  "^contra[^a-z0-9]*hard[^a-z0-9]*corps$|^contrahardcorps$|^chc$"
+                          "regex":  "^contra[^a-z0-9]*hard[^a-z0-9]*corps(?![^a-z0-9]*(?:(?:alt)))$|^contrahardcorps$|^chc$"
                       },
                       {
                           "name":  "Contra Hardcorps",
@@ -8766,14 +9016,19 @@
                           "regex":  "^rings[^a-z0-9]*of[^a-z0-9]*power$|^rings[^a-z0-9]*power$|^ringsofpower$"
                       },
                       {
-                          "name":  "Ristar",
-                          "file":  "jingles/megadrive/Ristar.mp3",
-                          "regex":  "^ristar$"
+                          "name":  "Ristar Alt",
+                          "file":  "jingles/megadrive/Ristar Alt.ogg",
+                          "regex":  "^ristar[^a-z0-9]*alt$|^ristaralt$"
                       },
                       {
-                          "name":  "Ristar",
+                          "name":  "Ristar (Mega Drive)",
+                          "file":  "jingles/megadrive/Ristar.mp3",
+                          "regex":  "^ristar(?![^a-z0-9]*(?:(?:alt)))$|^ristar$"
+                      },
+                      {
+                          "name":  "Ristar (Mega Drive)",
                           "file":  "jingles/megadrive/Ristar.ogg",
-                          "regex":  "^ristar$"
+                          "regex":  "^ristar(?![^a-z0-9]*(?:(?:alt)))$|^ristar$"
                       },
                       {
                           "name":  "Rocket Knight Adventures 2",
@@ -8931,14 +9186,24 @@
                           "regex":  "^sonic[^a-z0-9]*the[^a-z0-9]*hedgehog[^a-z0-9]*(?:2|ii)(?![^a-z0-9]*(?:(?:alt)))$|^sonic[^a-z0-9]*hedgehog[^a-z0-9]*(?:2|ii)(?![^a-z0-9]*(?:(?:alt)))$|^sonicthehedgehog2$"
                       },
                       {
-                          "name":  "Sonic the Hedgehog 3",
+                          "name":  "Sonic the Hedgehog 3 Complete",
+                          "file":  "jingles/megadrive/Sonic the Hedgehog 3 Complete.ogg",
+                          "regex":  "^sonic[^a-z0-9]*the[^a-z0-9]*hedgehog[^a-z0-9]*(?:3|iii)[^a-z0-9]*complete$|^sonic[^a-z0-9]*hedgehog[^a-z0-9]*(?:3|iii)[^a-z0-9]*complete$|^sonicthehedgehog3complete$|^h3c$"
+                      },
+                      {
+                          "name":  "Sonic the Hedgehog 3 (Mega Drive)",
                           "file":  "jingles/megadrive/Sonic the Hedgehog 3.ogg",
-                          "regex":  "^sonic[^a-z0-9]*the[^a-z0-9]*hedgehog[^a-z0-9]*(?:3|iii)$|^sonic[^a-z0-9]*hedgehog[^a-z0-9]*(?:3|iii)$|^sonicthehedgehog3$"
+                          "regex":  "^sonic[^a-z0-9]*the[^a-z0-9]*hedgehog[^a-z0-9]*(?:3|iii)(?![^a-z0-9]*(?:(?:complete)))$|^sonic[^a-z0-9]*hedgehog[^a-z0-9]*(?:3|iii)(?![^a-z0-9]*(?:(?:complete)))$|^sonicthehedgehog3$"
                       },
                       {
                           "name":  "Sonic the Hedgehog Alt",
                           "file":  "jingles/megadrive/Sonic the Hedgehog Alt.ogg",
                           "regex":  "^sonic[^a-z0-9]*the[^a-z0-9]*hedgehog[^a-z0-9]*alt$|^sonic[^a-z0-9]*hedgehog[^a-z0-9]*alt$|^sonicthehedgehogalt$"
+                      },
+                      {
+                          "name":  "Sonic the Hedgehog Chaos",
+                          "file":  "jingles/megadrive/Sonic the Hedgehog Chaos.ogg",
+                          "regex":  "^sonic[^a-z0-9]*the[^a-z0-9]*hedgehog[^a-z0-9]*chaos$|^sonic[^a-z0-9]*hedgehog[^a-z0-9]*chaos$|^sonicthehedgehogchaos$"
                       },
                       {
                           "name":  "Sonic the Hedgehog Spinball",
@@ -8948,17 +9213,17 @@
                       {
                           "name":  "Sonic the Hedgehog (Mega Drive)",
                           "file":  "jingles/megadrive/Sonic the Hedgehog.mp3",
-                          "regex":  "^sonic[^a-z0-9]*the[^a-z0-9]*hedgehog(?![^a-z0-9]*(?:(?:(?:2|ii)|2006|(?:3|iii)|alt|cd|megamix|spinball)))$|^sonic[^a-z0-9]*hedgehog(?![^a-z0-9]*(?:(?:(?:2|ii)|2006|(?:3|iii)|alt|cd|megamix|spinball)))$|^sonicthehedgehog$"
+                          "regex":  "^sonic[^a-z0-9]*the[^a-z0-9]*hedgehog(?![^a-z0-9]*(?:(?:(?:2|ii)|2006|(?:3|iii)|alt|cd|chaos|megamix|spinball)))$|^sonic[^a-z0-9]*hedgehog(?![^a-z0-9]*(?:(?:(?:2|ii)|2006|(?:3|iii)|alt|cd|chaos|megamix|spinball)))$|^sonicthehedgehog$"
                       },
                       {
                           "name":  "Sonic the Hedgehog (Mega Drive)",
                           "file":  "jingles/megadrive/Sonic the Hedgehog.ogg",
-                          "regex":  "^sonic[^a-z0-9]*the[^a-z0-9]*hedgehog(?![^a-z0-9]*(?:(?:(?:2|ii)|2006|(?:3|iii)|alt|cd|megamix|spinball)))$|^sonic[^a-z0-9]*hedgehog(?![^a-z0-9]*(?:(?:(?:2|ii)|2006|(?:3|iii)|alt|cd|megamix|spinball)))$|^sonicthehedgehog$"
+                          "regex":  "^sonic[^a-z0-9]*the[^a-z0-9]*hedgehog(?![^a-z0-9]*(?:(?:(?:2|ii)|2006|(?:3|iii)|alt|cd|chaos|megamix|spinball)))$|^sonic[^a-z0-9]*hedgehog(?![^a-z0-9]*(?:(?:(?:2|ii)|2006|(?:3|iii)|alt|cd|chaos|megamix|spinball)))$|^sonicthehedgehog$"
                       },
                       {
                           "name":  "Sonic (Mega Drive)",
                           "file":  "jingles/megadrive/Sonic.ogg",
-                          "regex":  "^sonic(?![^a-z0-9]*(?:(?:(?:2|ii)|(?:3|iii)|3d|advance|adventure|all|(?:and|\u0026|n)|battle|cd|classic|colors|delta|frontiers|generations|hedgehog|hellfire|heroes|jam|legacy|lost|mania|megamix|pocket|r|racing|renovation|riders|rivals|robo|rush|sms|spinball|superstars|triple|unleashed|(?:x|10|ten))))$|^sonic$"
+                          "regex":  "^sonic(?![^a-z0-9]*(?:(?:(?:2|ii)|(?:3|iii)|3d|advance|adventure|all|(?:and|\u0026|n)|battle|cd|classic|colors|delta|frontiers|generations|hedgehog|hellfire|heroes|jam|legacy|lost|mania|megamix|pinball|pocket|r|racing|renovation|riders|rivals|robo|rush|sms|spinball|superstars|triple|unleashed|(?:x|10|ten))))$|^sonic$"
                       },
                       {
                           "name":  "Starflight",
@@ -9024,6 +9289,11 @@
                           "name":  "Syndicate (Mega Drive)",
                           "file":  "jingles/megadrive/Syndicate.ogg",
                           "regex":  "^syndicate(?![^a-z0-9]*(?:(?:wars)))$|^syndicate$"
+                      },
+                      {
+                          "name":  "Tails Adventure",
+                          "file":  "jingles/megadrive/Tails Adventure.ogg",
+                          "regex":  "^tails[^a-z0-9]*adventure$|^tailsadventure$"
                       },
                       {
                           "name":  "Target Earth",
@@ -9576,7 +9846,7 @@
                 {
                     "name":  "Digimon World (PS1)",
                     "file":  "jingles/psx/Digimon World.ogg",
-                    "regex":  "^digimon[^a-z0-9]*world(?![^a-z0-9]*(?:(?:(?:2|ii)|(?:3|iii)|redigitize)))$|^digimonworld$"
+                    "regex":  "^digimon[^a-z0-9]*world(?![^a-z0-9]*(?:(?:(?:2|ii)|(?:3|iii)|re|redigitize)))$|^digimonworld$"
                 },
                 {
                     "name":  "Dino Crisis 2",
@@ -10096,7 +10366,7 @@
                 {
                     "name":  "Tekken (PS1)",
                     "file":  "jingles/psx/Tekken.mp3",
-                    "regex":  "^tekken(?![^a-z0-9]*(?:(?:(?:2|ii)|(?:3|iii)|(?:4|iv)|(?:5|v)|tag)))$|^tekken$"
+                    "regex":  "^tekken(?![^a-z0-9]*(?:(?:(?:2|ii)|(?:3|iii)|(?:4|iv)|(?:5|v)|(?:6|vi)|tag)))$|^tekken$"
                 },
                 {
                     "name":  "Tenchu II",
@@ -11533,6 +11803,11 @@
                     "regex":  "^tekken[^a-z0-9]*(?:5|v)$|^tekken5$"
                 },
                 {
+                    "name":  "Tekken 6",
+                    "file":  "jingles/psp/Tekken 6.ogg",
+                    "regex":  "^tekken[^a-z0-9]*(?:6|vi)$|^tekken6$"
+                },
+                {
                     "name":  "Tetris Ultimate",
                     "file":  "jingles/psp/Tetris Ultimate.mp3",
                     "regex":  "^tetris[^a-z0-9]*ultimate$|^tetrisultimate$"
@@ -11904,6 +12179,11 @@
                       "regex":  "^brawlhalla$"
                   },
                   {
+                      "name":  "Broken Sword - Shadow of the Templars - Reforged",
+                      "file":  "jingles/steam/Broken Sword - Shadow of the Templars - Reforged.ogg",
+                      "regex":  "^broken[^a-z0-9]*sword[^a-z0-9]*shadow[^a-z0-9]*of[^a-z0-9]*the[^a-z0-9]*templars[^a-z0-9]*reforged$|^broken[^a-z0-9]*sword[^a-z0-9]*shadow[^a-z0-9]*templars[^a-z0-9]*reforged$|^bsstr$"
+                  },
+                  {
                       "name":  "BZZZT",
                       "file":  "jingles/steam/BZZZT.ogg",
                       "regex":  "^bzzzt$"
@@ -12062,6 +12342,11 @@
                       "name":  "Fable Anniversary",
                       "file":  "jingles/steam/Fable Anniversary.mp3",
                       "regex":  "^fable[^a-z0-9]*anniversary$|^fableanniversary$"
+                  },
+                  {
+                      "name":  "Fall Guys",
+                      "file":  "jingles/steam/Fall Guys.ogg",
+                      "regex":  "^fall[^a-z0-9]*guys$|^fallguys$"
                   },
                   {
                       "name":  "Fallout 3",
